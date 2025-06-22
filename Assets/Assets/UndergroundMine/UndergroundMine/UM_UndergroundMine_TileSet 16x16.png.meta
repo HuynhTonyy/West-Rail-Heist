@@ -1,0 +1,754 @@
+fileFormatVersion: 2
+guid: 795e90d25c497144f80760cdf858e4f1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6990212972873629640
+    second: UM_UndergroundMine_TileSet 16x16_0
+  - first:
+      213: 263459135866982247
+    second: UM_UndergroundMine_TileSet 16x16_1
+  - first:
+      213: 8890552811867665951
+    second: UM_UndergroundMine_TileSet 16x16_2
+  - first:
+      213: 5657345465477859938
+    second: UM_UndergroundMine_TileSet 16x16_3
+  - first:
+      213: -3089085488028141151
+    second: UM_UndergroundMine_TileSet 16x16_4
+  - first:
+      213: -8457900798533072106
+    second: UM_UndergroundMine_TileSet 16x16_5
+  - first:
+      213: -162148151662359637
+    second: UM_UndergroundMine_TileSet 16x16_6
+  - first:
+      213: -2491351529559983954
+    second: UM_UndergroundMine_TileSet 16x16_7
+  - first:
+      213: 1787404531768764574
+    second: UM_UndergroundMine_TileSet 16x16_8
+  - first:
+      213: -8804807692940993681
+    second: UM_UndergroundMine_TileSet 16x16_9
+  - first:
+      213: 3897696366693177036
+    second: UM_UndergroundMine_TileSet 16x16_10
+  - first:
+      213: -194961636324918092
+    second: UM_UndergroundMine_TileSet 16x16_11
+  - first:
+      213: 2702955233762500100
+    second: UM_UndergroundMine_TileSet 16x16_12
+  - first:
+      213: 3974334233194598400
+    second: UM_UndergroundMine_TileSet 16x16_13
+  - first:
+      213: 2416068393875126698
+    second: UM_UndergroundMine_TileSet 16x16_14
+  - first:
+      213: 1839489385083620352
+    second: UM_UndergroundMine_TileSet 16x16_15
+  - first:
+      213: -8025182726751793878
+    second: UM_UndergroundMine_TileSet 16x16_16
+  - first:
+      213: -5734894187729950818
+    second: UM_UndergroundMine_TileSet 16x16_17
+  - first:
+      213: 6826488509418683682
+    second: UM_UndergroundMine_TileSet 16x16_18
+  - first:
+      213: 3088129002456573141
+    second: UM_UndergroundMine_TileSet 16x16_19
+  - first:
+      213: -5748560003484207749
+    second: UM_UndergroundMine_TileSet 16x16_20
+  - first:
+      213: 3166407452243060934
+    second: UM_UndergroundMine_TileSet 16x16_21
+  - first:
+      213: -7110395607612966661
+    second: UM_UndergroundMine_TileSet 16x16_22
+  - first:
+      213: 7796246807812784143
+    second: UM_UndergroundMine_TileSet 16x16_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: UM_UndergroundMine_TileSet 16x16_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 159
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8304a8f3656cdfe90800000000000000
+      internalID: -6990212972873629640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UM_UndergroundMine_TileSet 16x16_1
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 159
+        width: 18
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76fce2e20bef7a300800000000000000
+      internalID: 263459135866982247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UM_UndergroundMine_TileSet 16x16_2
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 175
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f16f830ada6916b70800000000000000
+      internalID: 8890552811867665951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UM_UndergroundMine_TileSet 16x16_3
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 159
+        width: 18
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26a89791abde28e40800000000000000
+      internalID: 5657345465477859938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UM_UndergroundMine_TileSet 16x16_4
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 161
+        width: 12
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a9b4458d1d5125d0800000000000000
+      internalID: -3089085488028141151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UM_UndergroundMine_TileSet 16x16_5
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 193
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61b81fd19008f9a80800000000000000
+      internalID: -8457900798533072106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UM_UndergroundMine_TileSet 16x16_6
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 175
+        width: 66
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: babcd2b7d1fefbdf0800000000000000
+      internalID: -162148151662359637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UM_UndergroundMine_TileSet 16x16_7
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 191
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea873fdcbf0fc6dd0800000000000000
+      internalID: -2491351529559983954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UM_UndergroundMine_TileSet 16x16_8
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 175
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e98200a93f22ec810800000000000000
+      internalID: 1787404531768764574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UM_UndergroundMine_TileSet 16x16_9
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 176
+        width: 16
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6b10aa9d0a0fc580800000000000000
+      internalID: -8804807692940993681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UM_UndergroundMine_TileSet 16x16_10
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 127
+        width: 50
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc6d313d136671630800000000000000
+      internalID: 3897696366693177036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UM_UndergroundMine_TileSet 16x16_11
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 127
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bc360abc6b5b4df0800000000000000
+      internalID: -194961636324918092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UM_UndergroundMine_TileSet 16x16_12
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 127
+        width: 50
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40e5238d673d28520800000000000000
+      internalID: 2702955233762500100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UM_UndergroundMine_TileSet 16x16_13
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 143
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0001d3c9deba72730800000000000000
+      internalID: 3974334233194598400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UM_UndergroundMine_TileSet 16x16_14
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 143
+        width: 32
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa9b9f14769978120800000000000000
+      internalID: 2416068393875126698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UM_UndergroundMine_TileSet 16x16_15
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 111
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00cc20689dd278910800000000000000
+      internalID: 1839489385083620352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UM_UndergroundMine_TileSet 16x16_16
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 111
+        width: 49
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2dcb5a44d2d0a090800000000000000
+      internalID: -8025182726751793878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UM_UndergroundMine_TileSet 16x16_17
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 15
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9767ebfe109960b0800000000000000
+      internalID: -5734894187729950818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UM_UndergroundMine_TileSet 16x16_18
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 111
+        width: 34
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22dbf2b812f8cbe50800000000000000
+      internalID: 6826488509418683682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UM_UndergroundMine_TileSet 16x16_19
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 111
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d4610457fc3bda20800000000000000
+      internalID: 3088129002456573141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UM_UndergroundMine_TileSet 16x16_20
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 111
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b753e4e42230930b0800000000000000
+      internalID: -5748560003484207749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UM_UndergroundMine_TileSet 16x16_21
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 79
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c8e81d2dc651fb20800000000000000
+      internalID: 3166407452243060934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UM_UndergroundMine_TileSet 16x16_22
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 79
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf83bbb0edcc25d90800000000000000
+      internalID: -7110395607612966661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UM_UndergroundMine_TileSet 16x16_23
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 79
+        width: 48
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0044f85a25d13c60800000000000000
+      internalID: 7796246807812784143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      UM_UndergroundMine_TileSet 16x16_0: -6990212972873629640
+      UM_UndergroundMine_TileSet 16x16_1: 263459135866982247
+      UM_UndergroundMine_TileSet 16x16_10: 3897696366693177036
+      UM_UndergroundMine_TileSet 16x16_11: -194961636324918092
+      UM_UndergroundMine_TileSet 16x16_12: 2702955233762500100
+      UM_UndergroundMine_TileSet 16x16_13: 3974334233194598400
+      UM_UndergroundMine_TileSet 16x16_14: 2416068393875126698
+      UM_UndergroundMine_TileSet 16x16_15: 1839489385083620352
+      UM_UndergroundMine_TileSet 16x16_16: -8025182726751793878
+      UM_UndergroundMine_TileSet 16x16_17: -5734894187729950818
+      UM_UndergroundMine_TileSet 16x16_18: 6826488509418683682
+      UM_UndergroundMine_TileSet 16x16_19: 3088129002456573141
+      UM_UndergroundMine_TileSet 16x16_2: 8890552811867665951
+      UM_UndergroundMine_TileSet 16x16_20: -5748560003484207749
+      UM_UndergroundMine_TileSet 16x16_21: 3166407452243060934
+      UM_UndergroundMine_TileSet 16x16_22: -7110395607612966661
+      UM_UndergroundMine_TileSet 16x16_23: 7796246807812784143
+      UM_UndergroundMine_TileSet 16x16_3: 5657345465477859938
+      UM_UndergroundMine_TileSet 16x16_4: -3089085488028141151
+      UM_UndergroundMine_TileSet 16x16_5: -8457900798533072106
+      UM_UndergroundMine_TileSet 16x16_6: -162148151662359637
+      UM_UndergroundMine_TileSet 16x16_7: -2491351529559983954
+      UM_UndergroundMine_TileSet 16x16_8: 1787404531768764574
+      UM_UndergroundMine_TileSet 16x16_9: -8804807692940993681
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

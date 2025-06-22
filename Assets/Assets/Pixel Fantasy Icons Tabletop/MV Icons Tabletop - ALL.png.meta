@@ -1,0 +1,2262 @@
+fileFormatVersion: 2
+guid: 0456753a3f7d384439919d3d273b9f73
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 9027823684015287832
+    second: MV Icons Tabletop - ALL_0
+  - first:
+      213: 8261784602128641348
+    second: MV Icons Tabletop - ALL_1
+  - first:
+      213: -5544863856042980703
+    second: MV Icons Tabletop - ALL_2
+  - first:
+      213: 4486914361896828842
+    second: MV Icons Tabletop - ALL_3
+  - first:
+      213: 1372347113522917289
+    second: MV Icons Tabletop - ALL_4
+  - first:
+      213: -2429715151362150847
+    second: MV Icons Tabletop - ALL_5
+  - first:
+      213: 3657736919209239409
+    second: MV Icons Tabletop - ALL_6
+  - first:
+      213: -8596549841279828253
+    second: MV Icons Tabletop - ALL_7
+  - first:
+      213: 8709905081638380012
+    second: MV Icons Tabletop - ALL_8
+  - first:
+      213: -2407677628156429243
+    second: MV Icons Tabletop - ALL_9
+  - first:
+      213: -553336603003981003
+    second: MV Icons Tabletop - ALL_10
+  - first:
+      213: -7432650439848299862
+    second: MV Icons Tabletop - ALL_11
+  - first:
+      213: 1313666623176553006
+    second: MV Icons Tabletop - ALL_12
+  - first:
+      213: -8416453925132186265
+    second: MV Icons Tabletop - ALL_13
+  - first:
+      213: 2087526077644642823
+    second: MV Icons Tabletop - ALL_14
+  - first:
+      213: -2015099205053037485
+    second: MV Icons Tabletop - ALL_15
+  - first:
+      213: 4926554547134847602
+    second: MV Icons Tabletop - ALL_16
+  - first:
+      213: -2825274184657603312
+    second: MV Icons Tabletop - ALL_17
+  - first:
+      213: 5053712150263469593
+    second: MV Icons Tabletop - ALL_18
+  - first:
+      213: 6664868779213746905
+    second: MV Icons Tabletop - ALL_19
+  - first:
+      213: -3094391699893584989
+    second: MV Icons Tabletop - ALL_20
+  - first:
+      213: -4316219072813909510
+    second: MV Icons Tabletop - ALL_21
+  - first:
+      213: -8382888482959629342
+    second: MV Icons Tabletop - ALL_22
+  - first:
+      213: -6640049979365556748
+    second: MV Icons Tabletop - ALL_23
+  - first:
+      213: -4537989777240040028
+    second: MV Icons Tabletop - ALL_24
+  - first:
+      213: 8371958576768304300
+    second: MV Icons Tabletop - ALL_25
+  - first:
+      213: 6770866129766924538
+    second: MV Icons Tabletop - ALL_26
+  - first:
+      213: 2105707269799445832
+    second: MV Icons Tabletop - ALL_27
+  - first:
+      213: -966174861838978246
+    second: MV Icons Tabletop - ALL_28
+  - first:
+      213: -243840901480855532
+    second: MV Icons Tabletop - ALL_29
+  - first:
+      213: -4396326270090093562
+    second: MV Icons Tabletop - ALL_30
+  - first:
+      213: -5613872078491235716
+    second: MV Icons Tabletop - ALL_31
+  - first:
+      213: 4082201103538782578
+    second: MV Icons Tabletop - ALL_32
+  - first:
+      213: -9005587851364827232
+    second: MV Icons Tabletop - ALL_33
+  - first:
+      213: -7600257230841664895
+    second: MV Icons Tabletop - ALL_34
+  - first:
+      213: 8826195331016364985
+    second: MV Icons Tabletop - ALL_35
+  - first:
+      213: 7795336926155344857
+    second: MV Icons Tabletop - ALL_36
+  - first:
+      213: -3797296619904745485
+    second: MV Icons Tabletop - ALL_37
+  - first:
+      213: -9170319523444141181
+    second: MV Icons Tabletop - ALL_38
+  - first:
+      213: 7432573431451016642
+    second: MV Icons Tabletop - ALL_39
+  - first:
+      213: -6009580420401317241
+    second: MV Icons Tabletop - ALL_40
+  - first:
+      213: 703114930876676180
+    second: MV Icons Tabletop - ALL_41
+  - first:
+      213: 6578915811515198700
+    second: MV Icons Tabletop - ALL_42
+  - first:
+      213: 4060488043906492512
+    second: MV Icons Tabletop - ALL_43
+  - first:
+      213: -3403485033506932865
+    second: MV Icons Tabletop - ALL_44
+  - first:
+      213: -179018791421306629
+    second: MV Icons Tabletop - ALL_45
+  - first:
+      213: 6960232107307794682
+    second: MV Icons Tabletop - ALL_46
+  - first:
+      213: -6509618392173896
+    second: MV Icons Tabletop - ALL_47
+  - first:
+      213: -5875158012969802996
+    second: MV Icons Tabletop - ALL_48
+  - first:
+      213: 2876167412870744990
+    second: MV Icons Tabletop - ALL_49
+  - first:
+      213: -5482482335000297116
+    second: MV Icons Tabletop - ALL_50
+  - first:
+      213: -485622739266380457
+    second: MV Icons Tabletop - ALL_51
+  - first:
+      213: 4680093678453235716
+    second: MV Icons Tabletop - ALL_52
+  - first:
+      213: -1736630769577968880
+    second: MV Icons Tabletop - ALL_53
+  - first:
+      213: -7304934109333038557
+    second: MV Icons Tabletop - ALL_54
+  - first:
+      213: -4049347837945538705
+    second: MV Icons Tabletop - ALL_55
+  - first:
+      213: -5434452529888156102
+    second: MV Icons Tabletop - ALL_56
+  - first:
+      213: 5563732516916933543
+    second: MV Icons Tabletop - ALL_57
+  - first:
+      213: 2875217530147117634
+    second: MV Icons Tabletop - ALL_58
+  - first:
+      213: -447372148042010487
+    second: MV Icons Tabletop - ALL_59
+  - first:
+      213: -8877449827289741503
+    second: MV Icons Tabletop - ALL_60
+  - first:
+      213: -133182288727822306
+    second: MV Icons Tabletop - ALL_61
+  - first:
+      213: 1007548564696831549
+    second: MV Icons Tabletop - ALL_62
+  - first:
+      213: -378412091858989901
+    second: MV Icons Tabletop - ALL_63
+  - first:
+      213: -1340945196059150594
+    second: MV Icons Tabletop - ALL_64
+  - first:
+      213: -5547283911778989631
+    second: MV Icons Tabletop - ALL_65
+  - first:
+      213: 2290151371334685109
+    second: MV Icons Tabletop - ALL_66
+  - first:
+      213: 5298873816043386961
+    second: MV Icons Tabletop - ALL_67
+  - first:
+      213: -4521137287137656539
+    second: MV Icons Tabletop - ALL_68
+  - first:
+      213: -9087894392712030918
+    second: MV Icons Tabletop - ALL_69
+  - first:
+      213: 4810347872910957329
+    second: MV Icons Tabletop - ALL_70
+  - first:
+      213: 6583629902096076879
+    second: MV Icons Tabletop - ALL_71
+  - first:
+      213: -252363911906367557
+    second: MV Icons Tabletop - ALL_72
+  - first:
+      213: 5974367670276165332
+    second: MV Icons Tabletop - ALL_73
+  - first:
+      213: 185872358539316761
+    second: MV Icons Tabletop - ALL_74
+  - first:
+      213: 3517811623574482370
+    second: MV Icons Tabletop - ALL_75
+  - first:
+      213: -8138561356156640852
+    second: MV Icons Tabletop - ALL_76
+  - first:
+      213: 1006221404008639434
+    second: MV Icons Tabletop - ALL_77
+  - first:
+      213: -4862852258406846528
+    second: MV Icons Tabletop - ALL_78
+  - first:
+      213: 7062048224108394415
+    second: MV Icons Tabletop - ALL_79
+  - first:
+      213: -4717537967581101434
+    second: MV Icons Tabletop - ALL_80
+  - first:
+      213: -3277046789332594263
+    second: MV Icons Tabletop - ALL_81
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MV Icons Tabletop - ALL_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 128
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81ee6942fc5494d70800000000000000
+      internalID: 9027823684015287832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MV Icons Tabletop - ALL_1
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 159
+        width: 24
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44d6ba4a251c7a270800000000000000
+      internalID: 8261784602128641348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MV Icons Tabletop - ALL_2
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 128
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1aac7ac63bfac03b0800000000000000
+      internalID: -5544863856042980703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MV Icons Tabletop - ALL_3
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 159
+        width: 26
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaf7576e6d8b44e30800000000000000
+      internalID: 4486914361896828842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MV Icons Tabletop - ALL_4
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 159
+        width: 28
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9afe012cd6e8b0310800000000000000
+      internalID: 1372347113522917289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MV Icons Tabletop - ALL_5
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 128
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14eaca961fae74ed0800000000000000
+      internalID: -2429715151362150847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MV Icons Tabletop - ALL_6
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 128
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1736c473954e2c230800000000000000
+      internalID: 3657736919209239409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MV Icons Tabletop - ALL_7
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 159
+        width: 24
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ee3390477be2b880800000000000000
+      internalID: -8596549841279828253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MV Icons Tabletop - ALL_8
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 128
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce1ec62568ccfd870800000000000000
+      internalID: 8709905081638380012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MV Icons Tabletop - ALL_9
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 159
+        width: 24
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54cb41024f5369ed0800000000000000
+      internalID: -2407677628156429243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MV Icons Tabletop - ALL_10
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 128
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 533f9b09a472258f0800000000000000
+      internalID: -553336603003981003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MV Icons Tabletop - ALL_11
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 159
+        width: 24
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa2f0390ecbe9d890800000000000000
+      internalID: -7432650439848299862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MV Icons Tabletop - ALL_12
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 128
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e22b9bb65d41b3210800000000000000
+      internalID: 1313666623176553006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MV Icons Tabletop - ALL_13
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 159
+        width: 24
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76dcd045fbfb23b80800000000000000
+      internalID: -8416453925132186265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MV Icons Tabletop - ALL_14
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 128
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70a9f5d48e168fc10800000000000000
+      internalID: 2087526077644642823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MV Icons Tabletop - ALL_15
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 159
+        width: 26
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35444af03fde804e0800000000000000
+      internalID: -2015099205053037485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MV Icons Tabletop - ALL_16
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 159
+        width: 28
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27ade843243ae5440800000000000000
+      internalID: 4926554547134847602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MV Icons Tabletop - ALL_17
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 128
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 015f666191c9ac8d0800000000000000
+      internalID: -2825274184657603312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MV Icons Tabletop - ALL_18
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 128
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9169789cc64622640800000000000000
+      internalID: 5053712150263469593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MV Icons Tabletop - ALL_19
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 159
+        width: 24
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d270abb7de5e7c50800000000000000
+      internalID: 6664868779213746905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MV Icons Tabletop - ALL_20
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 128
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3abfcebc4238e05d0800000000000000
+      internalID: -3094391699893584989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MV Icons Tabletop - ALL_21
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 159
+        width: 24
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af939202f95b914c0800000000000000
+      internalID: -4316219072813909510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MV Icons Tabletop - ALL_22
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 128
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e36a75d65ff9ab80800000000000000
+      internalID: -8382888482959629342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MV Icons Tabletop - ALL_23
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 159
+        width: 24
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fd731969bdc9d3a0800000000000000
+      internalID: -6640049979365556748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MV Icons Tabletop - ALL_24
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 159
+        width: 129
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4add0454752d501c0800000000000000
+      internalID: -4537989777240040028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MV Icons Tabletop - ALL_25
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 128
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca44f8218fb2f2470800000000000000
+      internalID: 8371958576768304300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MV Icons Tabletop - ALL_26
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 128
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af04b761fd2f6fd50800000000000000
+      internalID: 6770866129766924538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MV Icons Tabletop - ALL_27
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 95
+        width: 18
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8458a59fa99f83d10800000000000000
+      internalID: 2105707269799445832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MV Icons Tabletop - ALL_28
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 95
+        width: 18
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a33fc2905157792f0800000000000000
+      internalID: -966174861838978246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MV Icons Tabletop - ALL_29
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 63
+        width: 30
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 418c585fdf3bd9cf0800000000000000
+      internalID: -243840901480855532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MV Icons Tabletop - ALL_30
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 96
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60cdf82dc8c1df2c0800000000000000
+      internalID: -4396326270090093562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MV Icons Tabletop - ALL_31
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 0
+        width: 34
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7acb0396158712b0800000000000000
+      internalID: -5613872078491235716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MV Icons Tabletop - ALL_32
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 96
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27103267644e6a830800000000000000
+      internalID: 4082201103538782578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MV Icons Tabletop - ALL_33
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 63
+        width: 31
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0af73d51099b50380800000000000000
+      internalID: -9005587851364827232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MV Icons Tabletop - ALL_34
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 96
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18aa6120156768690800000000000000
+      internalID: -7600257230841664895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MV Icons Tabletop - ALL_35
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 96
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b3117fe3e1fc7a70800000000000000
+      internalID: 8826195331016364985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MV Icons Tabletop - ALL_36
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9db89f302a99e2c60800000000000000
+      internalID: 7795336926155344857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MV Icons Tabletop - ALL_37
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 96
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ff39c7d7da4d4bc0800000000000000
+      internalID: -3797296619904745485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MV Icons Tabletop - ALL_38
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 63
+        width: 30
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3835848dafa7cb080800000000000000
+      internalID: -9170319523444141181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MV Icons Tabletop - ALL_39
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 96
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cdd4ac082ec52760800000000000000
+      internalID: 7432573431451016642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MV Icons Tabletop - ALL_40
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 0
+        width: 34
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78a36d0a27ea99ca0800000000000000
+      internalID: -6009580420401317241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MV Icons Tabletop - ALL_41
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 96
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4587d2bed47f1c900800000000000000
+      internalID: 703114930876676180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MV Icons Tabletop - ALL_42
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 63
+        width: 31
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cec6090f2110d4b50800000000000000
+      internalID: 6578915811515198700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MV Icons Tabletop - ALL_43
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 96
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06864cfcc50c95830800000000000000
+      internalID: 4060488043906492512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MV Icons Tabletop - ALL_44
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 96
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f77f57bf46464c0d0800000000000000
+      internalID: -3403485033506932865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MV Icons Tabletop - ALL_45
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 64
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf896319b5ff38df0800000000000000
+      internalID: -179018791421306629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MV Icons Tabletop - ALL_46
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 96
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af089568936b79060800000000000000
+      internalID: 6960232107307794682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MV Icons Tabletop - ALL_47
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 63
+        width: 30
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b27c1c598fd8eff0800000000000000
+      internalID: -6509618392173896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MV Icons Tabletop - ALL_48
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 96
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0325a54aee377ea0800000000000000
+      internalID: -5875158012969802996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MV Icons Tabletop - ALL_49
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 0
+        width: 34
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9b07bef5033ae720800000000000000
+      internalID: 2876167412870744990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MV Icons Tabletop - ALL_50
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 96
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46104fe1d5f4ae3b0800000000000000
+      internalID: -5482482335000297116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MV Icons Tabletop - ALL_51
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 63
+        width: 31
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75ddc2b01b8b249f0800000000000000
+      internalID: -485622739266380457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MV Icons Tabletop - ALL_52
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 96
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 400a1c3876803f040800000000000000
+      internalID: 4680093678453235716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MV Icons Tabletop - ALL_53
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 96
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01bba41248f36e7e0800000000000000
+      internalID: -1736630769577968880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MV Icons Tabletop - ALL_54
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 64
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32ad1997129af9a90800000000000000
+      internalID: -7304934109333038557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MV Icons Tabletop - ALL_55
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 64
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6792438893ddc7c0800000000000000
+      internalID: -4049347837945538705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MV Icons Tabletop - ALL_56
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 0
+        width: 30
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a362b4f8732f494b0800000000000000
+      internalID: -5434452529888156102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MV Icons Tabletop - ALL_57
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 31
+        width: 31
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a3bf180f39563d40800000000000000
+      internalID: 5563732516916933543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MV Icons Tabletop - ALL_58
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 64
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24a15603c13d6e720800000000000000
+      internalID: 2875217530147117634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MV Icons Tabletop - ALL_59
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 32
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9807d81d66d9ac9f0800000000000000
+      internalID: -447372148042010487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MV Icons Tabletop - ALL_60
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 0
+        width: 30
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 147ca05ba66fcc480800000000000000
+      internalID: -8877449827289741503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MV Icons Tabletop - ALL_61
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 31
+        width: 31
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e10310ef967d62ef0800000000000000
+      internalID: -133182288727822306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MV Icons Tabletop - ALL_62
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 64
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3695b4d4188bfd00800000000000000
+      internalID: 1007548564696831549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MV Icons Tabletop - ALL_63
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 32
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bc4806153c9fbaf0800000000000000
+      internalID: -378412091858989901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MV Icons Tabletop - ALL_64
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 0
+        width: 32
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef6b0a5e271046de0800000000000000
+      internalID: -1340945196059150594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MV Icons Tabletop - ALL_65
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 31
+        width: 31
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c98c2a4ca61403b0800000000000000
+      internalID: -5547283911778989631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MV Icons Tabletop - ALL_66
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 64
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b1174ad98048cf10800000000000000
+      internalID: 2290151371334685109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MV Icons Tabletop - ALL_67
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 32
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15872ea39a1698940800000000000000
+      internalID: 5298873816043386961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MV Icons Tabletop - ALL_68
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 32
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52103636791b141c0800000000000000
+      internalID: -4521137287137656539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MV Icons Tabletop - ALL_69
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 0
+        width: 26
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a359226133051e180800000000000000
+      internalID: -9087894392712030918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MV Icons Tabletop - ALL_70
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 32
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11bd9e277e9c1c240800000000000000
+      internalID: 4810347872910957329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MV Icons Tabletop - ALL_71
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 0
+        width: 26
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f40931fa380cd5b50800000000000000
+      internalID: 6583629902096076879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MV Icons Tabletop - ALL_72
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 0
+        width: 26
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb761b4fb5c6f7cf0800000000000000
+      internalID: -252363911906367557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MV Icons Tabletop - ALL_73
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 0
+        width: 26
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4de83681eb739e250800000000000000
+      internalID: 5974367670276165332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MV Icons Tabletop - ALL_74
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 32
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91ecc40ece9549200800000000000000
+      internalID: 185872358539316761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MV Icons Tabletop - ALL_75
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 0
+        width: 30
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cda5e19807c1d030800000000000000
+      internalID: 3517811623574482370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MV Icons Tabletop - ALL_76
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 0
+        width: 30
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca1ef8701950e0f80800000000000000
+      internalID: -8138561356156640852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MV Icons Tabletop - ALL_77
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 0
+        width: 30
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acb64572901d6fd00800000000000000
+      internalID: 1006221404008639434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MV Icons Tabletop - ALL_78
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 32
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cf247ea2ada38cb0800000000000000
+      internalID: -4862852258406846528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MV Icons Tabletop - ALL_79
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 0
+        width: 30
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa7b8a8817f610260800000000000000
+      internalID: 7062048224108394415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MV Icons Tabletop - ALL_80
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 0
+        width: 30
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68209eb8630f78eb0800000000000000
+      internalID: -4717537967581101434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MV Icons Tabletop - ALL_81
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 0
+        width: 30
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a11f71ce479582d0800000000000000
+      internalID: -3277046789332594263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      MV Icons Tabletop - ALL_0: 9027823684015287832
+      MV Icons Tabletop - ALL_1: 8261784602128641348
+      MV Icons Tabletop - ALL_10: -553336603003981003
+      MV Icons Tabletop - ALL_11: -7432650439848299862
+      MV Icons Tabletop - ALL_12: 1313666623176553006
+      MV Icons Tabletop - ALL_13: -8416453925132186265
+      MV Icons Tabletop - ALL_14: 2087526077644642823
+      MV Icons Tabletop - ALL_15: -2015099205053037485
+      MV Icons Tabletop - ALL_16: 4926554547134847602
+      MV Icons Tabletop - ALL_17: -2825274184657603312
+      MV Icons Tabletop - ALL_18: 5053712150263469593
+      MV Icons Tabletop - ALL_19: 6664868779213746905
+      MV Icons Tabletop - ALL_2: -5544863856042980703
+      MV Icons Tabletop - ALL_20: -3094391699893584989
+      MV Icons Tabletop - ALL_21: -4316219072813909510
+      MV Icons Tabletop - ALL_22: -8382888482959629342
+      MV Icons Tabletop - ALL_23: -6640049979365556748
+      MV Icons Tabletop - ALL_24: -4537989777240040028
+      MV Icons Tabletop - ALL_25: 8371958576768304300
+      MV Icons Tabletop - ALL_26: 6770866129766924538
+      MV Icons Tabletop - ALL_27: 2105707269799445832
+      MV Icons Tabletop - ALL_28: -966174861838978246
+      MV Icons Tabletop - ALL_29: -243840901480855532
+      MV Icons Tabletop - ALL_3: 4486914361896828842
+      MV Icons Tabletop - ALL_30: -4396326270090093562
+      MV Icons Tabletop - ALL_31: -5613872078491235716
+      MV Icons Tabletop - ALL_32: 4082201103538782578
+      MV Icons Tabletop - ALL_33: -9005587851364827232
+      MV Icons Tabletop - ALL_34: -7600257230841664895
+      MV Icons Tabletop - ALL_35: 8826195331016364985
+      MV Icons Tabletop - ALL_36: 7795336926155344857
+      MV Icons Tabletop - ALL_37: -3797296619904745485
+      MV Icons Tabletop - ALL_38: -9170319523444141181
+      MV Icons Tabletop - ALL_39: 7432573431451016642
+      MV Icons Tabletop - ALL_4: 1372347113522917289
+      MV Icons Tabletop - ALL_40: -6009580420401317241
+      MV Icons Tabletop - ALL_41: 703114930876676180
+      MV Icons Tabletop - ALL_42: 6578915811515198700
+      MV Icons Tabletop - ALL_43: 4060488043906492512
+      MV Icons Tabletop - ALL_44: -3403485033506932865
+      MV Icons Tabletop - ALL_45: -179018791421306629
+      MV Icons Tabletop - ALL_46: 6960232107307794682
+      MV Icons Tabletop - ALL_47: -6509618392173896
+      MV Icons Tabletop - ALL_48: -5875158012969802996
+      MV Icons Tabletop - ALL_49: 2876167412870744990
+      MV Icons Tabletop - ALL_5: -2429715151362150847
+      MV Icons Tabletop - ALL_50: -5482482335000297116
+      MV Icons Tabletop - ALL_51: -485622739266380457
+      MV Icons Tabletop - ALL_52: 4680093678453235716
+      MV Icons Tabletop - ALL_53: -1736630769577968880
+      MV Icons Tabletop - ALL_54: -7304934109333038557
+      MV Icons Tabletop - ALL_55: -4049347837945538705
+      MV Icons Tabletop - ALL_56: -5434452529888156102
+      MV Icons Tabletop - ALL_57: 5563732516916933543
+      MV Icons Tabletop - ALL_58: 2875217530147117634
+      MV Icons Tabletop - ALL_59: -447372148042010487
+      MV Icons Tabletop - ALL_6: 3657736919209239409
+      MV Icons Tabletop - ALL_60: -8877449827289741503
+      MV Icons Tabletop - ALL_61: -133182288727822306
+      MV Icons Tabletop - ALL_62: 1007548564696831549
+      MV Icons Tabletop - ALL_63: -378412091858989901
+      MV Icons Tabletop - ALL_64: -1340945196059150594
+      MV Icons Tabletop - ALL_65: -5547283911778989631
+      MV Icons Tabletop - ALL_66: 2290151371334685109
+      MV Icons Tabletop - ALL_67: 5298873816043386961
+      MV Icons Tabletop - ALL_68: -4521137287137656539
+      MV Icons Tabletop - ALL_69: -9087894392712030918
+      MV Icons Tabletop - ALL_7: -8596549841279828253
+      MV Icons Tabletop - ALL_70: 4810347872910957329
+      MV Icons Tabletop - ALL_71: 6583629902096076879
+      MV Icons Tabletop - ALL_72: -252363911906367557
+      MV Icons Tabletop - ALL_73: 5974367670276165332
+      MV Icons Tabletop - ALL_74: 185872358539316761
+      MV Icons Tabletop - ALL_75: 3517811623574482370
+      MV Icons Tabletop - ALL_76: -8138561356156640852
+      MV Icons Tabletop - ALL_77: 1006221404008639434
+      MV Icons Tabletop - ALL_78: -4862852258406846528
+      MV Icons Tabletop - ALL_79: 7062048224108394415
+      MV Icons Tabletop - ALL_8: 8709905081638380012
+      MV Icons Tabletop - ALL_80: -4717537967581101434
+      MV Icons Tabletop - ALL_81: -3277046789332594263
+      MV Icons Tabletop - ALL_9: -2407677628156429243
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

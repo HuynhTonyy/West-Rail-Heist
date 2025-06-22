@@ -1,0 +1,1300 @@
+fileFormatVersion: 2
+guid: b8a6327cc6ab1bc4fa2443e3aa5bb8e4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2454933284216978766
+    second: Archaeologist Sprite Sheet_0
+  - first:
+      213: -158522208245490138
+    second: Archaeologist Sprite Sheet_1
+  - first:
+      213: 8966887376654365937
+    second: Archaeologist Sprite Sheet_2
+  - first:
+      213: -3234027930304732083
+    second: Archaeologist Sprite Sheet_3
+  - first:
+      213: 7415196747425411010
+    second: Archaeologist Sprite Sheet_4
+  - first:
+      213: -2525922226374399822
+    second: Archaeologist Sprite Sheet_5
+  - first:
+      213: -7614238945689653603
+    second: Archaeologist Sprite Sheet_6
+  - first:
+      213: 3510150025171985212
+    second: Archaeologist Sprite Sheet_7
+  - first:
+      213: 2204009528225729878
+    second: Archaeologist Sprite Sheet_8
+  - first:
+      213: 2260551920459043066
+    second: Archaeologist Sprite Sheet_9
+  - first:
+      213: -5270132188041168655
+    second: Archaeologist Sprite Sheet_10
+  - first:
+      213: 437978745355056573
+    second: Archaeologist Sprite Sheet_11
+  - first:
+      213: 2944477646157260464
+    second: Archaeologist Sprite Sheet_12
+  - first:
+      213: -4697253599075669188
+    second: Archaeologist Sprite Sheet_13
+  - first:
+      213: 338721206694448372
+    second: Archaeologist Sprite Sheet_14
+  - first:
+      213: 3825219752717002613
+    second: Archaeologist Sprite Sheet_15
+  - first:
+      213: 3977872020262080948
+    second: Archaeologist Sprite Sheet_16
+  - first:
+      213: 5915109303206190537
+    second: Archaeologist Sprite Sheet_17
+  - first:
+      213: -4960532992841308561
+    second: Archaeologist Sprite Sheet_18
+  - first:
+      213: 5827937757078535714
+    second: Archaeologist Sprite Sheet_19
+  - first:
+      213: 6202677322100747592
+    second: Archaeologist Sprite Sheet_20
+  - first:
+      213: 1612471686182842538
+    second: Archaeologist Sprite Sheet_21
+  - first:
+      213: 5069352631626778692
+    second: Archaeologist Sprite Sheet_22
+  - first:
+      213: 1126332432855183262
+    second: Archaeologist Sprite Sheet_23
+  - first:
+      213: 2521583731363810678
+    second: Archaeologist Sprite Sheet_24
+  - first:
+      213: 6009919484917891945
+    second: Archaeologist Sprite Sheet_25
+  - first:
+      213: -8564747592290955323
+    second: Archaeologist Sprite Sheet_26
+  - first:
+      213: -2560673859580079756
+    second: Archaeologist Sprite Sheet_27
+  - first:
+      213: -272029253419062765
+    second: Archaeologist Sprite Sheet_28
+  - first:
+      213: -2916622493522653166
+    second: Archaeologist Sprite Sheet_29
+  - first:
+      213: -6420758147091369862
+    second: Archaeologist Sprite Sheet_30
+  - first:
+      213: 2207094298168128328
+    second: Archaeologist Sprite Sheet_31
+  - first:
+      213: -6764038532438472656
+    second: Archaeologist Sprite Sheet_32
+  - first:
+      213: -3793469000078103662
+    second: Archaeologist Sprite Sheet_33
+  - first:
+      213: -4315727260625752199
+    second: Archaeologist Sprite Sheet_34
+  - first:
+      213: 7987586492732366668
+    second: Archaeologist Sprite Sheet_35
+  - first:
+      213: -4728935668050721846
+    second: Archaeologist Sprite Sheet_36
+  - first:
+      213: 1259369313319047959
+    second: Archaeologist Sprite Sheet_37
+  - first:
+      213: -861227411426678685
+    second: Archaeologist Sprite Sheet_38
+  - first:
+      213: -6867861324345158401
+    second: Archaeologist Sprite Sheet_39
+  - first:
+      213: -6205679336644636275
+    second: Archaeologist Sprite Sheet_40
+  - first:
+      213: 7987264356564990505
+    second: Archaeologist Sprite Sheet_41
+  - first:
+      213: 7092059973213766406
+    second: Archaeologist Sprite Sheet_42
+  - first:
+      213: 5077143162810808880
+    second: Archaeologist Sprite Sheet_43
+  - first:
+      213: 5876541393836655888
+    second: Archaeologist Sprite Sheet_44
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Archaeologist Sprite Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 191
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b2c6fe4f235eedd0800000000000000
+      internalID: -2454933284216978766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archaeologist Sprite Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 191
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62e548834e0dccdf0800000000000000
+      internalID: -158522208245490138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archaeologist Sprite Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 191
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f4fa6a7f88c07c70800000000000000
+      internalID: 8966887376654365937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archaeologist Sprite Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 191
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d44ae746bbc6e13d0800000000000000
+      internalID: -3234027930304732083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archaeologist Sprite Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 191
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cf6ce5872218e660800000000000000
+      internalID: 7415196747425411010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archaeologist Sprite Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 191
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b8a0b63e1f12fcd0800000000000000
+      internalID: -2525922226374399822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archaeologist Sprite Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 191
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9e2937550ac45690800000000000000
+      internalID: -7614238945689653603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archaeologist Sprite Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 191
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3364bea9de86b030800000000000000
+      internalID: 3510150025171985212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archaeologist Sprite Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 159
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65d88731df6369e10800000000000000
+      internalID: 2204009528225729878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archaeologist Sprite Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 162
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af0d947aef71f5f10800000000000000
+      internalID: 2260551920459043066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archaeologist Sprite Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 164
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f8347482babcd6b0800000000000000
+      internalID: -5270132188041168655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archaeologist Sprite Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 162
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db53f003953041600800000000000000
+      internalID: 437978745355056573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archaeologist Sprite Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 159
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b6284491d2ecd820800000000000000
+      internalID: 2944477646157260464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archaeologist Sprite Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 162
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3b6b2f1db000deb0800000000000000
+      internalID: -4697253599075669188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archaeologist Sprite Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 163
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fc0ae2942163b400800000000000000
+      internalID: 338721206694448372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archaeologist Sprite Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 162
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57721842919e51530800000000000000
+      internalID: 3825219752717002613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archaeologist Sprite Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 127
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b1dfa9d68d343730800000000000000
+      internalID: 3977872020262080948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archaeologist Sprite Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 129
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cd96395290b61250800000000000000
+      internalID: 5915109303206190537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archaeologist Sprite Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 128
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f66a6196685a82bb0800000000000000
+      internalID: -4960532992841308561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archaeologist Sprite Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 127
+        width: 25
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22eb0c7238ef0e050800000000000000
+      internalID: 5827937757078535714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archaeologist Sprite Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 127
+        width: 23
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84daf284926541650800000000000000
+      internalID: 6202677322100747592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archaeologist Sprite Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 127
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa0bd419476a06610800000000000000
+      internalID: 1612471686182842538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archaeologist Sprite Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 127
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4484e412c55f95640800000000000000
+      internalID: 5069352631626778692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archaeologist Sprite Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 95
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9fa55f416981af00800000000000000
+      internalID: 1126332432855183262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archaeologist Sprite Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 95
+        width: 34
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67d08533b077ef220800000000000000
+      internalID: 2521583731363810678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archaeologist Sprite Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 95
+        width: 39
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 963ca3bfde5876350800000000000000
+      internalID: 6009919484917891945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archaeologist Sprite Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 95
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cf8d9a5177e32980800000000000000
+      internalID: -8564747592290955323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archaeologist Sprite Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 95
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 471d91611b8a67cd0800000000000000
+      internalID: -2560673859580079756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archaeologist Sprite Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 95
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31a2175d5de893cf0800000000000000
+      internalID: -272029253419062765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archaeologist Sprite Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 63
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2101ba98b431687d0800000000000000
+      internalID: -2916622493522653166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archaeologist Sprite Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 63
+        width: 40
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a707ceddb72e4e6a0800000000000000
+      internalID: -6420758147091369862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archaeologist Sprite Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 63
+        width: 84
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 843f91c029c21ae10800000000000000
+      internalID: 2207094298168128328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archaeologist Sprite Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 63
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03843facace4122a0800000000000000
+      internalID: -6764038532438472656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archaeologist Sprite Sheet_33
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 63
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29b63e70b04ea5bc0800000000000000
+      internalID: -3793469000078103662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archaeologist Sprite Sheet_34
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 63
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97faee21ce47b14c0800000000000000
+      internalID: -4315727260625752199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archaeologist Sprite Sheet_35
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 63
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4f5508589b99de60800000000000000
+      internalID: 7987586492732366668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archaeologist Sprite Sheet_36
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 31
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac3892c90127f5eb0800000000000000
+      internalID: -4728935668050721846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archaeologist Sprite Sheet_37
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 31
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 713d861d7bd2a7110800000000000000
+      internalID: 1259369313319047959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archaeologist Sprite Sheet_38
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 31
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36865177b3e4c04f0800000000000000
+      internalID: -861227411426678685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archaeologist Sprite Sheet_39
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 31
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff453c3538470b0a0800000000000000
+      internalID: -6867861324345158401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archaeologist Sprite Sheet_40
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 0
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d81905db58ff0e9a0800000000000000
+      internalID: -6205679336644636275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archaeologist Sprite Sheet_41
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 0
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92af13c2d9678de60800000000000000
+      internalID: 7987264356564990505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archaeologist Sprite Sheet_42
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 0
+        width: 27
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6034c2568fe0c6260800000000000000
+      internalID: 7092059973213766406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archaeologist Sprite Sheet_43
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 0
+        width: 27
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03a34258ec2a57640800000000000000
+      internalID: 5077143162810808880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archaeologist Sprite Sheet_44
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 0
+        width: 27
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 015438f234bad8150800000000000000
+      internalID: 5876541393836655888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Archaeologist Sprite Sheet_0: -2454933284216978766
+      Archaeologist Sprite Sheet_1: -158522208245490138
+      Archaeologist Sprite Sheet_10: -5270132188041168655
+      Archaeologist Sprite Sheet_11: 437978745355056573
+      Archaeologist Sprite Sheet_12: 2944477646157260464
+      Archaeologist Sprite Sheet_13: -4697253599075669188
+      Archaeologist Sprite Sheet_14: 338721206694448372
+      Archaeologist Sprite Sheet_15: 3825219752717002613
+      Archaeologist Sprite Sheet_16: 3977872020262080948
+      Archaeologist Sprite Sheet_17: 5915109303206190537
+      Archaeologist Sprite Sheet_18: -4960532992841308561
+      Archaeologist Sprite Sheet_19: 5827937757078535714
+      Archaeologist Sprite Sheet_2: 8966887376654365937
+      Archaeologist Sprite Sheet_20: 6202677322100747592
+      Archaeologist Sprite Sheet_21: 1612471686182842538
+      Archaeologist Sprite Sheet_22: 5069352631626778692
+      Archaeologist Sprite Sheet_23: 1126332432855183262
+      Archaeologist Sprite Sheet_24: 2521583731363810678
+      Archaeologist Sprite Sheet_25: 6009919484917891945
+      Archaeologist Sprite Sheet_26: -8564747592290955323
+      Archaeologist Sprite Sheet_27: -2560673859580079756
+      Archaeologist Sprite Sheet_28: -272029253419062765
+      Archaeologist Sprite Sheet_29: -2916622493522653166
+      Archaeologist Sprite Sheet_3: -3234027930304732083
+      Archaeologist Sprite Sheet_30: -6420758147091369862
+      Archaeologist Sprite Sheet_31: 2207094298168128328
+      Archaeologist Sprite Sheet_32: -6764038532438472656
+      Archaeologist Sprite Sheet_33: -3793469000078103662
+      Archaeologist Sprite Sheet_34: -4315727260625752199
+      Archaeologist Sprite Sheet_35: 7987586492732366668
+      Archaeologist Sprite Sheet_36: -4728935668050721846
+      Archaeologist Sprite Sheet_37: 1259369313319047959
+      Archaeologist Sprite Sheet_38: -861227411426678685
+      Archaeologist Sprite Sheet_39: -6867861324345158401
+      Archaeologist Sprite Sheet_4: 7415196747425411010
+      Archaeologist Sprite Sheet_40: -6205679336644636275
+      Archaeologist Sprite Sheet_41: 7987264356564990505
+      Archaeologist Sprite Sheet_42: 7092059973213766406
+      Archaeologist Sprite Sheet_43: 5077143162810808880
+      Archaeologist Sprite Sheet_44: 5876541393836655888
+      Archaeologist Sprite Sheet_5: -2525922226374399822
+      Archaeologist Sprite Sheet_6: -7614238945689653603
+      Archaeologist Sprite Sheet_7: 3510150025171985212
+      Archaeologist Sprite Sheet_8: 2204009528225729878
+      Archaeologist Sprite Sheet_9: 2260551920459043066
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
