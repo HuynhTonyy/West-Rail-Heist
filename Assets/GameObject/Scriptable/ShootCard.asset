@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65b851015053bc74e9f872e90db52ddf, type: 3}
+  m_Name: ShootCard
+  m_EditorClassIdentifier: 
+  cardName: Shoot
+  cardImage: {fileID: 9173425563621800071, guid: bf78cbce140627e44afc308d78f18089, type: 3}
+  actionType: 3
+  description: 'This card only usable when the player have bullets.
+
+    Player will
+    shoot another player:
+
+    - When inside the carriage, you can only shoot the
+    person in the next carriage. Can''t shoot the person in the same carriage.
+
+    -
+    When on the roof, shoot the nearest person you can see despite distance. If there
+    are more then one person, choose one to shoot'
