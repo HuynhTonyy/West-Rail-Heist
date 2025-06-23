@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65b851015053bc74e9f872e90db52ddf, type: 3}
+  m_Name: MoveCard
+  m_EditorClassIdentifier: 
+  cardName: Move
+  cardImage: {fileID: 9173425563621800071, guid: ec06d8d2ca044864fb5ccdfcca3ee92a, type: 3}
+  actionType: 0
+  description: 'Move to new train carriage.
+
+    - If a player is inside a train,
+    they have to move to a near by carriage.
+
+    - If a player is on the roof, they
+    can move from 1 - 2 nearest carriage.'
