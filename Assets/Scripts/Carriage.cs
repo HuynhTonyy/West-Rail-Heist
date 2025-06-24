@@ -1,0 +1,111 @@
+using UnityEngine;
+using System.Collections.Generic;
+
+[System.Serializable]
+public class Carriage   
+{
+    public TopCarriage topCarriage = new TopCarriage();
+    public BottomCarriage bottomCarriage = new BottomCarriage();
+}
+
+[System.Serializable]
+public class TopCarriage
+{
+    public GameObject obj;
+    public int width;
+    public Dictionary<int, GameObject> players = new Dictionary<int, GameObject>();
+
+    public void CalculateWidth()
+    {
+        if (obj != null && obj.TryGetComponent(out BoxCollider2D collider))
+        {
+            width = (int)collider.size.x;
+        }
+    }
+
+    public int MaxPlayers => width / 2;
+
+    public bool AddPlayer(GameObject player)
+    {
+        if (players.Count >= MaxPlayers) return false;
+
+        int slotIndex = GetNextAvailableSlot();
+        if (slotIndex == -1) return false;
+
+        players.Add(slotIndex, player);
+        Vector3 pos = CalculatePlayerPosition(slotIndex);
+        player.transform.position = pos;
+
+        Debug.Log($"Player added to TopCarriage at slot {slotIndex}, position {pos}");
+        return true;
+    }
+
+    private int GetNextAvailableSlot()
+    {
+        for (int i = 0; i < MaxPlayers; i++)
+        {
+            if (!players.ContainsKey(i)) return i;
+        }
+        return -1;
+    }
+
+    private Vector3 CalculatePlayerPosition(int slotIndex)
+    {
+        float startX = obj.transform.position.x + 1f; // 1f centers 2-unit wide slot
+        float x = startX + slotIndex * 2f;
+        float y = obj.transform.position.y;
+        return new Vector3(x, y, 0);
+    }
+}
+
+[System.Serializable]
+public class BottomCarriage
+{
+    public GameObject obj;
+    public int width;
+    public Dictionary<int, GameObject> players = new Dictionary<int, GameObject>();
+
+    public void CalculateWidth()
+    {
+        if (obj != null && obj.TryGetComponent(out BoxCollider2D collider))
+        {
+            width = (int)collider.size.x;
+        }
+    }
+
+    public int MaxPlayers => width / 2;
+
+    public bool AddPlayer(GameObject player)
+    {
+        if (players.Count >= MaxPlayers) return false;
+
+        int slotIndex = GetNextAvailableSlot();
+        if (slotIndex == -1) return false;
+
+        players.Add(slotIndex, player);
+        Vector3 pos = CalculatePlayerPosition(slotIndex);
+        player.transform.position = pos;
+
+        Debug.Log($"Player added to BottomCarriage at slot {slotIndex}, position {pos}");
+        return true;
+    }
+
+    private int GetNextAvailableSlot()
+    {
+        for (int i = 0; i < MaxPlayers; i++)
+        {
+            if (!players.ContainsKey(i)) return i;
+        }
+        return -1;
+    }
+
+    private Vector3 CalculatePlayerPosition(int slotIndex)
+    {
+        // Assuming center of carriage is at obj.transform.position.x
+        float startX = obj.transform.position.x + 1f; // +1f to center player in 2-unit slot
+        float x = startX + slotIndex * 2f;
+        Vector3 pos = new Vector3(x, obj.transform.position.y, 0);
+        return pos;
+    }
+}
+
