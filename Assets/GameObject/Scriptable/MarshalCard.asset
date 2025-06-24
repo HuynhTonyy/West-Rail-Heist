@@ -15,10 +15,4 @@ MonoBehaviour:
   cardName: Marshal
   cardImage: {fileID: 9173425563621800071, guid: 11f499e11addd11499662aa25bb44967, type: 3}
   actionType: 5
-  description: 'Move the Sheriff by 1 carriage.
-
-    
-
-    When the Sheriff enters
-    a car with a Robber, or vice versa. The Robber must escape to the roof of that
-    car and each Robber seen will receive 1 Bullet (Neutral).'
+  description: Move the Sheriff by 1 carriage.

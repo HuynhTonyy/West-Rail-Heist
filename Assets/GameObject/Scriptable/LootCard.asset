@@ -15,7 +15,4 @@ MonoBehaviour:
   cardName: Loot
   cardImage: {fileID: 9173425563621800071, guid: 11f499e11addd11499662aa25bb44967, type: 3}
   actionType: 4
-  description: 'Get a "Money bag" where your character is standing.
-
-    Characters
-    in the carriage cannot get Money Bags on the roof and vice versa.'
+  description: Get a "Money bag" where your character is "standing".
