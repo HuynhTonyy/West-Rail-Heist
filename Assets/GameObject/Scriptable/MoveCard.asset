@@ -15,10 +15,9 @@ MonoBehaviour:
   cardName: Move
   cardImage: {fileID: 9173425563621800071, guid: ec06d8d2ca044864fb5ccdfcca3ee92a, type: 3}
   actionType: 0
-  description: 'Move to new train carriage.
+  description: 'Move to near by train carriage.
 
-    - If a player is inside a train,
-    they have to move to a near by carriage.
+    - Inside: 1 nearest carriage
 
-    - If a player is on the roof, they
-    can move from 1 - 2 nearest carriage.'
+    -
+    Roof: 1 - 2 nearest carriages'
