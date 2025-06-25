@@ -17,7 +17,7 @@ MonoBehaviour:
   actionType: 0
   description: 'Move to near by train carriage.
 
-    - Inside: 1 nearest carriage
+    Inside: 1 nearest carriage
 
-    -
-    Roof: 1 - 2 nearest carriages'
+    Roof:
+    1 - 2 nearest carriages'

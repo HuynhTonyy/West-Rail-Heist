@@ -17,7 +17,7 @@ MonoBehaviour:
   actionType: 3
   description: 'Active when the player have bullets
 
-    - Inside: Shoot player in
+    Inside: Shoot player in
     the next carriage
 
-    - Roof: Shoot first person in sight'
+    Roof: Shoot first person in sight'
