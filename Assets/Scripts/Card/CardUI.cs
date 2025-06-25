@@ -40,7 +40,7 @@ public class CardUI : MonoBehaviour, IPointerClickHandler
         {
             CardPreviewUI.Instance.ShowCard(cardData, () =>
             {
-                Debug.Log($"Playing card: {cardData.cardName}");
+                // Debug.Log($"Playing card: {cardData.cardName}");
                 cardHandManager.PlayCard(this);                
             });
         }
