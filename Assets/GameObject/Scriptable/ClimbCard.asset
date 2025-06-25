@@ -15,5 +15,4 @@ MonoBehaviour:
   cardName: Climb
   cardImage: {fileID: 9173425563621800071, guid: ec06d8d2ca044864fb5ccdfcca3ee92a, type: 3}
   actionType: 1
-  description: Player will either climb to the roof or inside their current carriage
-    which they are on.
+  description: Climb to the roof or inside their current carriage they are on

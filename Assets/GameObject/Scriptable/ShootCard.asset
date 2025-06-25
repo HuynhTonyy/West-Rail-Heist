@@ -15,14 +15,9 @@ MonoBehaviour:
   cardName: Shoot
   cardImage: {fileID: 9173425563621800071, guid: bf78cbce140627e44afc308d78f18089, type: 3}
   actionType: 3
-  description: 'This card only usable when the player have bullets.
+  description: 'Active when the player have bullets
 
-    Player will
-    shoot another player:
+    - Inside: Shoot player in
+    the next carriage
 
-    - When inside the carriage, you can only shoot the
-    person in the next carriage. Can''t shoot the person in the same carriage.
-
-    -
-    When on the roof, shoot the nearest person you can see despite distance. If there
-    are more then one person, choose one to shoot'
+    - Roof: Shoot first person in sight'

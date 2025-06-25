@@ -15,10 +15,5 @@ MonoBehaviour:
   cardName: 'Punch '
   cardImage: {fileID: 9173425563621800071, guid: bf78cbce140627e44afc308d78f18089, type: 3}
   actionType: 2
-  description: 'Choose a person in the same carriage to punch.
-
-    They will drop
-    a "Money bag" of your choice.
-
-    Then choose a near by carriage for them to
-    be in.'
+  description: "Choose a person in the same carriage to punch. \nChoose them a nearest
+    carriage. They also drop a \"Money bag\" of your choice "
