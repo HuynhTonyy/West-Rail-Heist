@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65b851015053bc74e9f872e90db52ddf, type: 3}
   m_Name: PunchCard
   m_EditorClassIdentifier: 
-  cardName: 'Punch '
+  cardName: Punch
   cardImage: {fileID: 9173425563621800071, guid: bf78cbce140627e44afc308d78f18089, type: 3}
   actionType: 2
   description: "Choose a person in the same carriage to punch. \nChoose them a nearest

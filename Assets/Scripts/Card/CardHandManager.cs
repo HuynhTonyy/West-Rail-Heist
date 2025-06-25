@@ -5,18 +5,23 @@ using TMPro;
 
 public class CardHandManager : MonoBehaviour
 {
+    [Header("Card Setup")]
     public Transform cardHandContainer;
     public GameObject cardUIPrefab;
     public ActionCardData[] defaultCards;
-    private ActionCardData[] startingHandCard;
-    [SerializeField] private List<ActionCardData> remainingCards;
-    [SerializeField] private List<CardUI> currentCards = new List<CardUI>();
+
+    [Header("UI")]
     [SerializeField] private TMP_Text drawCountText;
-    [SerializeField] private PlayedCard playedCard;
-    void Start()
+
+    [Header("Reference")]
+    [SerializeField] private List<ActionCardData> remainingCards = new List<ActionCardData>();
+    [SerializeField] private List<CardUI> currentCards = new List<CardUI>();
+
+    public void InitializeHand()
     {
-        startingHandCard = GetStartingHandCards();
+        var startingHandCard = GetStartingHandCards();
         DisplayHands(startingHandCard);
+        // SetCurrentPlayer(GameManager.Instance.GetCurrentPlayer());
         UpdateDrawButtonText();
     }
 
@@ -59,13 +64,14 @@ public class CardHandManager : MonoBehaviour
         {
             currentCards[i].transform.SetSiblingIndex(i);
         }
+        UpdateDrawButtonText();
     }
 
     public void DrawCard(int count = 2)
     {
         if (remainingCards.Count == 0)
         {
-            Debug.Log("No more cards to draw.");
+            // Debug.Log("No more cards to draw.");
             return;
         }
 
@@ -79,8 +85,14 @@ public class CardHandManager : MonoBehaviour
             AddCardToHand(card);
         }
 
+
         SortHandCards();
         UpdateDrawButtonText();
+        CardPreviewUI.Instance?.gameObject.SetActive(false);
+
+        var currentPlayer = GameManager.Instance.GetCurrentPlayer();
+        GameManager.Instance.LogAction(currentPlayer.PlayerName + $" drew {drawCount} cards and skipped their turn.");
+        GameManager.Instance.MoveToNextPlayer();
     }
 
     public void RemoveCard(CardUI cardUI)
@@ -95,17 +107,30 @@ public class CardHandManager : MonoBehaviour
 
         if (PlayedCard.Instance == null)
         {
-            Debug.LogError("PlayedCard.Instance is null!");
+            // Debug.LogError("PlayedCard.Instance is null!");
             return;
         }
 
-        PlayedCard.Instance.AddCardToQueue(cardUI);
+        var currentPlayer = GameManager.Instance.GetCurrentPlayer();
+        PlayedCard.Instance.AddCardToQueue(currentPlayer, cardUI);
+
         Destroy(cardUI.gameObject);
         SortHandCards();
+
+        GameManager.Instance.LogAction(currentPlayer.PlayerName + $" played {cardUI.GetCardData().cardName}");
+        GameManager.Instance.MoveToNextPlayer();
     }
 
     private void UpdateDrawButtonText()
     {
-        drawCountText.text = $"Draw 2 Cards\n({remainingCards.Count})";
+        if (drawCountText != null)
+            drawCountText.text = $"Draw 2 Cards\n({remainingCards.Count} cards left)";
     }
+
+    public void EnableInteraction(bool enable)
+    {
+        cardHandContainer.gameObject.SetActive(enable);
+    }
+
+
 }
