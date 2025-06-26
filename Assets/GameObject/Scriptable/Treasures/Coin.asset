@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10eb9d72d778cad4ab76fc614f17fd35, type: 3}
+  m_Name: Coin
+  m_EditorClassIdentifier: 
+  treasureName: Gold Coin
+  treasureObj: {fileID: 597143358566828452, guid: c7bfc0b87259e9643b1b166c3698be73, type: 3}
+  sprite: {fileID: 7717009168347922525, guid: e317f535d7d038f4e8fe9b2e2c1cd3f0, type: 3}
+  value: 250

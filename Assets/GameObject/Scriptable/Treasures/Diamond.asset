@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10eb9d72d778cad4ab76fc614f17fd35, type: 3}
+  m_Name: Diamond
+  m_EditorClassIdentifier: 
+  treasureName: Diamond
+  priority: 2
+  treasureObj: {fileID: 597143358566828452, guid: 6c921edfe9f6287419e0ae9bc1d46217, type: 3}
+  sprite: {fileID: -7938337297120943294, guid: ea999a5726e3c62409d8120e54843d6a, type: 3}
+  value: 1000

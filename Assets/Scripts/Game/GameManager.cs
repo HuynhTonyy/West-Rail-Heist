@@ -7,6 +7,8 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     public static GameManager Instance { get; private set; }
+    [SerializeField] private List<Treasure> treasures = new List<Treasure>();
+
 
     [Header("Player Setup")]
     [SerializeField] private GameObject playerPrefab;
@@ -51,6 +53,7 @@ public class GameManager : MonoBehaviour
     private void Start()
     {
         SpawnPlayers();
+        SpawnTreasures();
         StartNewRound();
     }
 
@@ -81,6 +84,7 @@ public class GameManager : MonoBehaviour
             carriages[i].topCarriage = new TopCarriage { obj = topObjects[i] };
             carriages[i].topCarriage.CalculateWidth();
         }
+
     }
 
     private void SpawnPlayers()
@@ -197,6 +201,31 @@ public class GameManager : MonoBehaviour
 
     public List<PlayerController> GetAllPlayers() => allPlayers;
 
+    private void SpawnTreasures()
+    {
+        foreach (var treasure in treasures)
+        {
+            for (int i = 0; i < treasure.amount; i++)
+            {
+                int from = 1;
+                switch (treasure.treasureSO.priority)
+                {
+                    case TreasurePriority.Diamond:
+                        from = carriages.Count - 2;
+                        break;
+                    case TreasurePriority.MoneyBag:
+                        from = carriages.Count - 3;
+                        break;
+                    case TreasurePriority.Coin:
+                        from = 1;
+                        break;
+                }
+                int carriageIndex = Utility.GetRandom(from, carriages.Count);
+                GameObject newTreasure = Instantiate(treasure.treasureSO.treasureObj);
+                carriages[carriageIndex].bottomCarriage.AddTreasure(treasure.treasureSO,newTreasure);
+            }
+        }
+    }
     public void LogAction(string message)
     {
         if (gameLogText != null)

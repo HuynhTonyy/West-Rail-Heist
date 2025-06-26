@@ -8,7 +8,7 @@ public class PlayerController : MonoBehaviour
     [Header("Player Info")]
     [SerializeField] private int playerId;
     public int PlayerId => playerId;
-    public string PlayerName => $"Player_{playerId}";
+    public string PlayerName => $"P{playerId}";
 
     [SerializeField] private int pendingBulletCards = 0;
     [SerializeField] private int playerBullets = 6;
@@ -263,7 +263,7 @@ public class PlayerController : MonoBehaviour
 
         if (moveOptions.Count == 0)
         {
-            GameManager.Instance.LogAction($"{target.PlayerName} has nowhere to go after being punched!");
+            GameManager.Instance.LogAction($"{target.PlayerName} has no where to go after being punched!");
             onComplete?.Invoke();
             return;
         }
