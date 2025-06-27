@@ -2297,7 +2297,7 @@ Camera:
   far clip plane: 1000
   field of view: 124.6
   orthographic: 1
-  orthographic size: 25.41
+  orthographic size: 23
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -2758,9 +2758,9 @@ MonoBehaviour:
   - amount: 9
     treasureSO: {fileID: 11400000, guid: c04218dc37282e34f989e5a00ed79158, type: 2}
   - amount: 6
-    treasureSO: {fileID: 11400000, guid: c04218dc37282e34f989e5a00ed79158, type: 2}
+    treasureSO: {fileID: 11400000, guid: 3ddf6534b9cea2645a96c5fe9804dc0a, type: 2}
   - amount: 2
-    treasureSO: {fileID: 11400000, guid: c04218dc37282e34f989e5a00ed79158, type: 2}
+    treasureSO: {fileID: 11400000, guid: 9b065b4fa4c86404988c291e35f56be6, type: 2}
   playerPrefab: {fileID: 7507626335571641962, guid: 46a1c38cc8e3976498b84bcbe4f6afa9, type: 3}
   numberOfPlayer: 4
   numberOfTurnsPerRound: 3
@@ -12021,8 +12021,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -12285,8 +12285,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:

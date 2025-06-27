@@ -196,14 +196,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.047508843, b: 0, a: 1}
+  m_Color: {r: 1, g: 0.86035675, b: 0.7311321, a: 0.74509805}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 0
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 2082474643519427876, guid: 501e335f1b6a3bf4abe8e377cf41a057, type: 3}
+  m_Sprite: {fileID: 3897659376991225048, guid: 22fe9b306284f1a4680305fb8315093d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1160,6 +1160,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerId: 0
   pendingBulletCards: 0
-  playerBullet: 0
+  playerBullets: 6
   bulletText: {fileID: 9103043892910071922}
   playerCanvas: {fileID: 6692458060023472385}

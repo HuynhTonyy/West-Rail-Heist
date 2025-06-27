@@ -207,7 +207,20 @@ public class GameManager : MonoBehaviour
         {
             for (int i = 0; i < treasure.amount; i++)
             {
-                int carriageIndex = Utility.GetRandom(1, carriages.Count);
+                int from = 1;
+                switch (treasure.treasureSO.priority)
+                {
+                    case TreasurePriority.Diamond:
+                        from = carriages.Count - 2;
+                        break;
+                    case TreasurePriority.MoneyBag:
+                        from = carriages.Count - 3;
+                        break;
+                    case TreasurePriority.Coin:
+                        from = 1;
+                        break;
+                }
+                int carriageIndex = Utility.GetRandom(from, carriages.Count);
                 GameObject newTreasure = Instantiate(treasure.treasureSO.treasureObj);
                 carriages[carriageIndex].bottomCarriage.AddTreasure(treasure.treasureSO,newTreasure);
             }
