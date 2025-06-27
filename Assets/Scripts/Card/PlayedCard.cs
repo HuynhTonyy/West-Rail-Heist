@@ -138,7 +138,21 @@ public class PlayedCard : MonoBehaviour
                     });
                 }
                 break;
-            case "loot": player.Loot(); FinishCurrentCard(); break;
+            case "loot":
+                Debug.Log($"{player.PlayerName} is trying to loot.");
+                var treasures = player.GetValidTreasure();
+                if (treasures.Count <= 0)
+                {
+                    GameManager.Instance.LogAction($"{player.PlayerName} tried to loot but found no treasure.");
+                    FinishCurrentCard();
+                }else
+                {
+                    TargetSelectionUI.Instance.ShowTreasureSelection(player, treasures, treasure =>
+                    {
+                        player.Loot(treasure);
+                    });
+                }
+                break;
             case "climb":
                 Debug.Log($"{player.PlayerName} is trying to climb.");
                 player.Climb();

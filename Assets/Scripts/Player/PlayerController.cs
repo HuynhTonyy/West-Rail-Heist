@@ -8,7 +8,7 @@ public class PlayerController : MonoBehaviour
     [Header("Player Info")]
     [SerializeField] private int playerId;
     public int PlayerId => playerId;
-    public string PlayerName => $"P{playerId}";
+    public string PlayerName => playerId == 99 ? "Marshal" : $"P{playerId}";
 
     [SerializeField] private bool isMarshal = false;
     public bool IsMarshal => isMarshal;
@@ -18,6 +18,7 @@ public class PlayerController : MonoBehaviour
 
     public Carriage CurrentCarriage { get; private set; }
     public bool IsOnTop { get; private set; }
+    public List<TreasureSO> treasures;
 
     [Header("References")]
     private TextMeshPro playerNameText;
@@ -216,7 +217,17 @@ public class PlayerController : MonoBehaviour
 
         return Utility.GetNearbyCarriages(myIndex, range);
     }
-
+    public List<TreasureSO> GetValidTreasure()
+    {
+        if (IsOnTop)
+        {
+            return CurrentCarriage.topCarriage.GetAllTreasureSOs();
+        }
+        else
+        {
+            return CurrentCarriage.bottomCarriage.GetAllTreasureSOs();
+        }
+    }
     public void Move(Carriage destination)
     {
         Utility.MovePlayerToCarriage(this, destination);
@@ -246,7 +257,24 @@ public class PlayerController : MonoBehaviour
         PlayedCard.Instance.FinishCurrentCard();
     }
 
-    public void Loot() => Debug.Log($"{PlayerName} loots");
+    public void Loot(TreasureSO treasureSO)
+    {
+        if (IsOnTop)
+        {
+            int index = CurrentCarriage.topCarriage.FindTreasureIndex(treasureSO);
+            Destroy(CurrentCarriage.topCarriage.GetAllTreasures()[index]);
+            CurrentCarriage.topCarriage.RemoveTreasure(index);
+        }
+        else
+        {
+            int index = CurrentCarriage.bottomCarriage.FindTreasureIndex(treasureSO);
+            Destroy(CurrentCarriage.bottomCarriage.GetAllTreasures()[index]);
+            CurrentCarriage.bottomCarriage.RemoveTreasure(index);
+        }
+        treasures.Add(treasureSO);
+        GameManager.Instance.LogAction($"{PlayerName} loot {treasureSO.treasureName}!");
+        PlayedCard.Instance.FinishCurrentCard();
+    }
 
     public void Shoot(PlayerController target)
     {
