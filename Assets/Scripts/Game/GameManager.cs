@@ -9,6 +9,8 @@ public class GameManager : MonoBehaviour
     public static GameManager Instance { get; private set; }
     [SerializeField] private TextMeshProUGUI currentPlayerText, gameLogText;
     [SerializeField] private List<Carriage> carriages = new List<Carriage>();
+    [SerializeField] private List<Treasure> treasures = new List<Treasure>();
+
     [SerializeField] private int numberOfPlayer;
     private List<PlayerController> allPlayers = new List<PlayerController>();
     private int currentPlayerIndex = 0;
@@ -50,39 +52,11 @@ public class GameManager : MonoBehaviour
             }
         }
 
-        // Debug.Log($"Loaded {carriages.Count} carriages from scene.");
     }
     void Start()
     {
-        // Example: Add 3 players to the first carriage top and bottom
-        int half = numberOfPlayer / 2;
-
-        for (int i = 0; i < numberOfPlayer; i++)
-        {
-            GameObject playerObj = Instantiate(playerPrefab);
-            PlayerController player = playerObj.GetComponent<PlayerController>();
-            player.SetPlayerId(i + 1);
-
-            // Find CardHandManager inside the child hierarchy
-            CardHandManager handManager = playerObj.GetComponentInChildren<CardHandManager>(true);
-            player.SetCardHandManager(handManager); // Set it in PlayerController
-            handManager.InitializeHand();
-
-            allPlayers.Add(player);
-            foreach (var person in allPlayers)
-            {
-                person.CheckTurn(false); // Ensure all canvases are hidden
-            }
-
-
-            if (i < half)
-                carriages[0].topCarriage.AddPlayer(playerObj);
-            else
-                carriages[0].bottomCarriage.AddPlayer(playerObj);
-        }
-
-        SetCurrentPlayer(allPlayers[0]);
-
+        SpawnPlayers();
+        SpawnTreasures();
     }
 
     public void LogAction(string message)
@@ -118,10 +92,49 @@ public class GameManager : MonoBehaviour
         return allPlayers;
     }
 
-
-    private void Update()
+    private void SpawnPlayers()
     {
+        int half = numberOfPlayer / 2;
+
+        for (int i = 0; i < numberOfPlayer; i++)
+        {
+            GameObject playerObj = Instantiate(playerPrefab);
+            PlayerController player = playerObj.GetComponent<PlayerController>();
+            player.SetPlayerId(i + 1);
+
+            // Find CardHandManager inside the child hierarchy
+            CardHandManager handManager = playerObj.GetComponentInChildren<CardHandManager>(true);
+            player.SetCardHandManager(handManager); // Set it in PlayerController
+            handManager.InitializeHand();
+
+            allPlayers.Add(player);
+            foreach (var person in allPlayers)
+            {
+                person.CheckTurn(false); // Ensure all canvases are hidden
+            }
+
+
+            if (i < half)
+                carriages[0].topCarriage.AddPlayer(playerObj);
+            else
+                carriages[0].bottomCarriage.AddPlayer(playerObj);
+        }
+
+        SetCurrentPlayer(allPlayers[0]);
     }
+    private void SpawnTreasures()
+    {
+        foreach (var treasure in treasures)
+        {
+            for (int i = 0; i < treasure.amount; i++)
+            {
+                int carriageIndex = Utility.GetRandom(1, carriages.Count);
+                GameObject newTreasure = Instantiate(treasure.treasureSO.treasureObj);
+                carriages[carriageIndex].bottomCarriage.AddTreasure(treasure.treasureSO,newTreasure);
+            }
+        }
+    }
+
 }
 
 

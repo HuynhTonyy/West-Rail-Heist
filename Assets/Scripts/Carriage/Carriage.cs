@@ -14,6 +14,8 @@ public class TopCarriage
     public GameObject obj;
     public int width;
     public Dictionary<int, GameObject> players = new Dictionary<int, GameObject>();
+    public List<TreasureSO> treasures = new List<TreasureSO>();
+
 
     public void CalculateWidth()
     {
@@ -39,7 +41,13 @@ public class TopCarriage
         Debug.Log($"Player added to TopCarriage at slot {slotIndex}, position {pos}");
         return true;
     }
-
+    public void AddTreasure(TreasureSO treasure, GameObject newTreasure)
+    {
+        treasures.Add(treasure);
+        float x = Utility.GetRandom(obj.transform.position.x, obj.transform.position.x + width);
+        Vector3 pos = new Vector3(x, obj.transform.position.y, 0);
+        newTreasure.transform.position = pos;
+    }
     private int GetNextAvailableSlot()
     {
         for (int i = 0; i < MaxPlayers; i++)
@@ -64,6 +72,7 @@ public class BottomCarriage
     public GameObject obj;
     public int width;
     public Dictionary<int, GameObject> players = new Dictionary<int, GameObject>();
+    public List<TreasureSO> treasures = new List<TreasureSO>();
 
     public void CalculateWidth()
     {
@@ -89,7 +98,13 @@ public class BottomCarriage
         Debug.Log($"Player added to BottomCarriage at slot {slotIndex}, position {pos}");
         return true;
     }
-
+    public void AddTreasure(TreasureSO treasure, GameObject newTreasure)
+    {
+        treasures.Add(treasure);
+        float x = Utility.GetRandom(obj.transform.position.x, obj.transform.position.x + width);
+        Vector3 pos = new Vector3(x, obj.transform.position.y, 0);
+        newTreasure.transform.position = pos;
+    }
     private int GetNextAvailableSlot()
     {
         for (int i = 0; i < MaxPlayers; i++)

@@ -10,7 +10,7 @@ public class PlayerController : MonoBehaviour
     [Header("Player Info")]
     [SerializeField] private int playerId;
     public int PlayerId => playerId;
-    public string PlayerName => $"Player_{playerId}";
+    public string PlayerName => $"P{playerId}";
 
     [Header("References")]
     private TextMeshPro playerNameText;
