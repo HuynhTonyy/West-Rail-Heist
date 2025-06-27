@@ -82,21 +82,20 @@ public class PlayedCard : MonoBehaviour
             case "move":
                 Debug.Log($"{player.PlayerName} is trying to move.");
 
-                // var moveTargets = player.GetValidMoveCarriages();
-                // if (moveTargets.Count == 0)
-                // {
-                //     GameManager.Instance.LogAction($"{player.PlayerName} tried to move but found no valid carriage.");
-                //     FinishCurrentCard();
-                // }
-                // else
-                // {
-                //     TargetSelectionUI.Instance.ShowCarriageSelection(player, moveTargets, targetCarriage =>
-                //     {
-                //         player.Move(targetCarriage);
-                //         FinishCurrentCard();
-                //     });
-                // }
-                FinishCurrentCard();
+                var moveOptions = player.GetValidMoveCarriages();
+
+                if (moveOptions.Count == 0)
+                {
+                    GameManager.Instance.LogAction($"{player.PlayerName} has nowhere to move.");
+                    FinishCurrentCard();
+                }
+                else
+                {
+                    TargetSelectionUI.Instance.ShowCarriageSelection(player, moveOptions, destination =>
+                    {
+                        player.Move(destination);
+                    });
+                }
                 break;
             case "shoot":
                 Debug.Log($"{player.PlayerName} is trying to shoot.");
@@ -110,15 +109,15 @@ public class PlayedCard : MonoBehaviour
                 var targets = player.GetValidShootTargets();
                 if (targets.Count == 0)
                 {
-                    GameManager.Instance.LogAction($"{player.PlayerName} tried to shoot but found no valid targets.");
+                    GameManager.Instance.LogAction($"{player.PlayerName} tried to shoot something");
                     FinishCurrentCard();
                 }
                 else
                 {
-                    TargetSelectionUI.Instance.ShowTargetSeletion(player, targets, target =>
+                    TargetSelectionUI.Instance.ShowTargetSelection(player, targets, target =>
                     {
-                        player.Shoot(target);
-                        // FinishCurrentCard();
+                        player.Shoot(target); // 👈 Make sure this is the SHOOT action
+                        FinishCurrentCard(); // You already call FinishCurrentCard() inside Shoot()
                     });
                 }
                 break;
@@ -126,7 +125,6 @@ public class PlayedCard : MonoBehaviour
                 Debug.Log($"{player.PlayerName} is trying to punch.");
 
                 var punchTargets = player.GetValidPunchTargets();
-
                 if (punchTargets.Count == 0)
                 {
                     GameManager.Instance.LogAction($"{player.PlayerName} tried to punch but found no valid targets.");
@@ -134,16 +132,38 @@ public class PlayedCard : MonoBehaviour
                 }
                 else
                 {
-                    TargetSelectionUI.Instance.ShowTargetSeletion(player, punchTargets, target =>
+                    TargetSelectionUI.Instance.ShowTargetSelection(player, punchTargets, target =>
                     {
                         player.Punch(target);
                     });
-
                 }
                 break;
             case "loot": player.Loot(); FinishCurrentCard(); break;
-            case "climb": player.Climb(); FinishCurrentCard(); break;
-            case "marshal": player.Marshal(); FinishCurrentCard(); break;
+            case "climb":
+                Debug.Log($"{player.PlayerName} is trying to climb.");
+                player.Climb();
+                FinishCurrentCard();
+                break;
+            case "marshal":
+                Debug.Log($"{player.PlayerName} is trying to move the Marshal.");
+
+                var marshal = GameManager.Instance.GetMarshal(); // Get marshal PlayerController
+                var marshalIndex = GameManager.Instance.GetCarriageIndex(marshal.CurrentCarriage);
+                var marshalMove = Utility.GetNearbyCarriages(marshalIndex, 1);
+
+                if (marshalMove.Count == 0)
+                {
+                    GameManager.Instance.LogAction("Marshal cannot be moved. No adjacent carriage.");
+                    FinishCurrentCard();
+                }
+                else
+                {
+                    TargetSelectionUI.Instance.ShowCarriageSelection(player, marshalMove, carriage =>
+                    {
+                        player.Marshal(carriage);
+                    });
+                }
+                break;
             default: Debug.Log($"Unknown card: {card.cardName}"); FinishCurrentCard(); break;
         }
     }
@@ -157,7 +177,7 @@ public class PlayedCard : MonoBehaviour
 
     private System.Collections.IEnumerator WaitThenNext()
     {
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(2f);
         ResolveNextCard();
     }
 

@@ -2618,8 +2618,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -10, y: -41.40149}
-  m_SizeDelta: {x: 200, y: 122.197}
+  m_AnchoredPosition: {x: -10, y: -40}
+  m_SizeDelta: {x: 200, y: 120}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &802343095
 MonoBehaviour:
@@ -2638,7 +2638,7 @@ MonoBehaviour:
     m_Right: 0
     m_Top: 0
     m_Bottom: 0
-  m_ChildAlignment: 7
+  m_ChildAlignment: 4
   m_Spacing: 0
   m_ChildForceExpandWidth: 0
   m_ChildForceExpandHeight: 0
@@ -2763,7 +2763,6 @@ MonoBehaviour:
     treasureSO: {fileID: 11400000, guid: 9b065b4fa4c86404988c291e35f56be6, type: 2}
   playerPrefab: {fileID: 7507626335571641962, guid: 46a1c38cc8e3976498b84bcbe4f6afa9, type: 3}
   numberOfPlayer: 4
-  numberOfTurnsPerRound: 3
   currentPlayerText: {fileID: 7519914844071047549}
   gameLogText: {fileID: 1549999885}
   carriages:
@@ -2816,7 +2815,7 @@ Transform:
   m_GameObject: {fileID: 956390546}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -15.65226, y: -4.30986, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

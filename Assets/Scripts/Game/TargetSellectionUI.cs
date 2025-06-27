@@ -24,12 +24,10 @@ public class TargetSelectionUI : MonoBehaviour
         gameObject.SetActive(false);
     }
 
-    public void ShowTargetSeletion(PlayerController actingPlayer, List<PlayerController> targets, Action<PlayerController> onSelected)
+    public void ShowTargetSelection(PlayerController actingPlayer, List<PlayerController> targets, Action<PlayerController> onSelected)
     {
         gameObject.SetActive(true);
-        titleText.text = $"{actingPlayer.PlayerName}, choose a player to perform:";
-
-        // Clear previous buttons
+        titleText.text = $"{actingPlayer.PlayerName}, choose a player to perform action";
         ClearButtons();
 
         foreach (var target in targets)
@@ -47,6 +45,7 @@ public class TargetSelectionUI : MonoBehaviour
             });
         }
     }
+
     public void ShowDirectionSelection(string title, List<string> labels, System.Action<string> onSelected)
     {
         gameObject.SetActive(true);
@@ -68,6 +67,7 @@ public class TargetSelectionUI : MonoBehaviour
             });
         }
     }
+
     public void ShowCarriageSelection(PlayerController player, List<Carriage> carriages, System.Action<Carriage> onSelected)
     {
         gameObject.SetActive(true);
@@ -82,7 +82,9 @@ public class TargetSelectionUI : MonoBehaviour
             var btnText = btnObj.GetComponentInChildren<TextMeshProUGUI>();
 
             int index = GameManager.Instance.GetCarriageIndex(carriage);
-            btnText.text = $"Carriage {index}";
+            int reversedDisplayIndex = GameManager.Instance.GetCarriages().Count - index;
+
+            btnText.text = $"Carriage {reversedDisplayIndex}";
 
             btn.onClick.AddListener(() =>
             {
