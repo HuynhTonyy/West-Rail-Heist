@@ -317,6 +317,17 @@ public class PlayerController : MonoBehaviour
                 {
                     Utility.MovePlayerToCarriage(target, destination);
                     GameManager.Instance.LogAction($"{target.PlayerName} was punched to the {direction} carriage.");
+                    if (target.treasures.Count > 0) {
+                        int treasureIndex = Utility.GetRandom(0, target.treasures.Count);
+                        TreasureSO treasureSO = target.treasures[treasureIndex];
+                        GameObject treasure = Instantiate(treasureSO.treasureObj);
+                        if (IsOnTop)
+                            CurrentCarriage.topCarriage.AddTreasure(treasureSO, treasure);
+                        else
+                            CurrentCarriage.bottomCarriage.AddTreasure(treasureSO, treasure);
+                        target.treasures.RemoveAt(treasureIndex);
+                    }
+                    
                 }
                 GameManager.Instance.EnforceMarshalRules();
                 PlayedCard.Instance.FinishCurrentCard();

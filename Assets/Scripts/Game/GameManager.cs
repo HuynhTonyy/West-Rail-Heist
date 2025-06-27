@@ -17,22 +17,28 @@ public class GameManager : MonoBehaviour
     private List<PlayerController> allPlayers = new();
 
     [Header("Round Management")]
+    private int currentCycle = 0;
+    [SerializeField]private int maxCycle = 5;
+    [SerializeField]private int maxRound = 5;
     private int currentRound = 1;
     private int currentPlayerIndex = 0;
     private int currentTurnInRound = 0;
     private int roundStartingPlayerIndex = 0;
+
+
     private PlayerController currentPlayer;
     private List<PlayerController> roundPlayerOrder;
     private PlayerController marshal;
     public PlayerController GetMarshal() => marshal;
 
     [Header("UI")]
+    [SerializeField] private TextMeshProUGUI currentRoundText;
     [SerializeField] private TextMeshProUGUI currentPlayerText;
     [SerializeField] private TextMeshProUGUI gameLogText;
 
     [Header("Train")]
 
-    [SerializeField] private List<Carriage> carriages = new();
+    private List<Carriage> carriages = new();
 
 
     public List<Carriage> GetCarriages() => carriages;
@@ -59,9 +65,10 @@ public class GameManager : MonoBehaviour
         SpawnPlayers();
         SpawnMarshal();
         SpawnTreasures();
-        StartNewRound();
+        StartNewCycle();
     }
 
+    
     // ------------------------- Initialization -------------------------
 
     private void InitializeCarriages()
@@ -139,9 +146,25 @@ public class GameManager : MonoBehaviour
     }
 
     // ------------------------- Rounds -------------------------
-
+    private void StartNewCycle()
+    {
+        if(currentCycle >= maxCycle){ EndGame(); }
+        currentCycle++;
+        currentRound = 1;
+        foreach (var player in allPlayers)
+        {
+            player.PrepareDeckForNewRound();
+            player.CheckTurn(false);
+        }
+        StartNewRound();
+    }
+    private void EndGame(){
+        return;
+    }
     public void StartNewRound()
     {
+        if (currentRound > maxRound)
+            StartNewCycle();
         Debug.Log($"--- Starting Round {currentRound} ---");
 
         currentTurnInRound = 0;
@@ -159,7 +182,7 @@ public class GameManager : MonoBehaviour
 
         foreach (var player in allPlayers)
         {
-            player.PrepareDeckForNewRound();
+            // player.PrepareDeckForNewRound();
             player.CheckTurn(false);
         }
 
@@ -277,14 +300,14 @@ public class GameManager : MonoBehaviour
 
     private void UpdateRoundUI()
     {
-        if (currentPlayerText != null)
-            currentPlayerText.text = $"Round {currentRound}, Turn {currentTurnInRound + 1}";
+        if (currentRoundText != null)
+            currentRoundText.text = $"Cycle {currentCycle} - Round {currentRound}";
     }
 
     private void UpdatePlayerUI()
     {
         if (currentPlayerText != null)
-            currentPlayerText.text = $"Now Playing: {currentPlayer.PlayerName}";
+            currentPlayerText.text = $"Current player: {currentPlayer.PlayerName}";
     }
 
     public void LogAction(string message)
