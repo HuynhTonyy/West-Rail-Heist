@@ -263,7 +263,7 @@ public class PlayerController : MonoBehaviour
 
         if (moveOptions.Count == 0)
         {
-            GameManager.Instance.LogAction($"{target.PlayerName} has nowhere to go after being punched!");
+            GameManager.Instance.LogAction($"{target.PlayerName} has no where to go after being punched!");
             onComplete?.Invoke();
             return;
         }
