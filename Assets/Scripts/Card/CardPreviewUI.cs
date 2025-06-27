@@ -9,7 +9,6 @@ public class CardPreviewUI : MonoBehaviour
     public Button cancelButton, playButton;
     private ActionCardData currentCard;
     public static CardPreviewUI Instance { get; private set; }
-
     void Start()
     {
         gameObject.SetActive(false);
@@ -26,8 +25,9 @@ public class CardPreviewUI : MonoBehaviour
 
     public void ShowCard(ActionCardData actionCard, System.Action onConfirm)
     {
+        // Debug.Log(actionCard.cardName);
         gameObject.SetActive(true);
-
+        playButton.interactable = actionCard.cardName != "Bullet";
         currentCard = actionCard;
         cardImage.sprite = currentCard.cardImage;
         cardNameText.text = currentCard.cardName;
@@ -37,6 +37,7 @@ public class CardPreviewUI : MonoBehaviour
 
         playButton.onClick.RemoveAllListeners();
         cancelButton.onClick.RemoveAllListeners();
+
 
         playButton.onClick.AddListener(() =>
         {
@@ -48,8 +49,6 @@ public class CardPreviewUI : MonoBehaviour
         {
             gameObject.SetActive(false);
         });
-
-
     }
 
 }

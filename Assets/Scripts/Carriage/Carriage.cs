@@ -2,7 +2,7 @@ using UnityEngine;
 using System.Collections.Generic;
 
 [System.Serializable]
-public class Carriage   
+public class Carriage
 {
     public TopCarriage topCarriage = new TopCarriage();
     public BottomCarriage bottomCarriage = new BottomCarriage();
@@ -23,6 +23,10 @@ public class TopCarriage
         {
             width = (int)collider.size.x;
         }
+    }
+    public List<GameObject> GetPlayers()
+    {
+        return new List<GameObject>(players.Values);
     }
 
     public int MaxPlayers => width / 2;
@@ -80,6 +84,10 @@ public class BottomCarriage
         {
             width = (int)collider.size.x;
         }
+    }
+    public List<GameObject> GetPlayers()
+    {
+        return new List<GameObject>(players.Values);
     }
 
     public int MaxPlayers => width / 2;
