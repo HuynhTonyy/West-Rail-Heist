@@ -12,24 +12,28 @@ public class GameManager : MonoBehaviour
 
     [Header("Player Setup")]
     [SerializeField] private GameObject playerPrefab;
+    [SerializeField] private GameObject marshalPrefab;
     [SerializeField] private int numberOfPlayer;
     private List<PlayerController> allPlayers = new();
 
     [Header("Round Management")]
-    [SerializeField] private int numberOfTurnsPerRound = 3;
     private int currentRound = 1;
     private int currentPlayerIndex = 0;
     private int currentTurnInRound = 0;
     private int roundStartingPlayerIndex = 0;
     private PlayerController currentPlayer;
     private List<PlayerController> roundPlayerOrder;
+    private PlayerController marshal;
+    public PlayerController GetMarshal() => marshal;
 
     [Header("UI")]
     [SerializeField] private TextMeshProUGUI currentPlayerText;
     [SerializeField] private TextMeshProUGUI gameLogText;
 
     [Header("Train")]
+
     [SerializeField] private List<Carriage> carriages = new();
+
 
     public List<Carriage> GetCarriages() => carriages;
 
@@ -53,6 +57,7 @@ public class GameManager : MonoBehaviour
     private void Start()
     {
         SpawnPlayers();
+        SpawnMarshal();
         SpawnTreasures();
         StartNewRound();
     }
@@ -118,6 +123,20 @@ public class GameManager : MonoBehaviour
             }
         }
     }
+    private void SpawnMarshal()
+    {
+        int last = carriages.Count - 1;
+        int randomIndex = UnityEngine.Random.Range(last, last - 1);
+
+        // Instantiate marshal
+        GameObject marshalObj = Instantiate(marshalPrefab);
+        marshal = marshalObj.GetComponent<PlayerController>(); // Assign directly to marshal field
+        marshal.SetPlayerId(99);
+        marshal.SetPosition(carriages[randomIndex], false); // bottom only
+        carriages[randomIndex].bottomCarriage.AddPlayer(marshalObj);
+
+        // Debug.Log($"Marshal spawned at carriage index {randomIndex} (bottom).");
+    }
 
     // ------------------------- Rounds -------------------------
 
@@ -145,12 +164,12 @@ public class GameManager : MonoBehaviour
         }
 
         SetCurrentPlayer(roundPlayerOrder[currentPlayerIndex]);
+        UpdateRoundUI();
     }
     private void OnRoundEnd(System.Action onComplete)
     {
         Debug.Log("Round ended! Run summary, animations, score updates, etc.");
-        // EXAMPLE: If you want to delay or animate, use coroutine
-        StartCoroutine(WaitAndThen(2f, onComplete));
+        StartCoroutine(WaitAndThen(2f, onComplete)); // Optional delay
     }
 
     private System.Collections.IEnumerator WaitAndThen(float seconds, System.Action callback)
@@ -159,14 +178,15 @@ public class GameManager : MonoBehaviour
         callback?.Invoke();
     }
 
+
     // ------------------------- Player Turn -------------------------
 
     public void SetCurrentPlayer(PlayerController player)
     {
-        currentPlayer?.CheckTurn(false); // Hide previous player canvas
+        currentPlayer?.CheckTurn(false); // Hide previous canvas (null-safe)
         currentPlayer = player;
-        currentPlayerText.text = player.PlayerName;
         currentPlayer.CheckTurn(true);
+        UpdatePlayerUI(); // <- new: update current player text
     }
 
     public void MoveToNextPlayer()
@@ -191,7 +211,6 @@ public class GameManager : MonoBehaviour
         }
 
         SetCurrentPlayer(roundPlayerOrder[currentPlayerIndex]);
-
     }
 
 
@@ -222,10 +241,52 @@ public class GameManager : MonoBehaviour
                 }
                 int carriageIndex = Utility.GetRandom(from, carriages.Count);
                 GameObject newTreasure = Instantiate(treasure.treasureSO.treasureObj);
-                carriages[carriageIndex].bottomCarriage.AddTreasure(treasure.treasureSO,newTreasure);
+                carriages[carriageIndex].bottomCarriage.AddTreasure(treasure.treasureSO, newTreasure);
             }
         }
     }
+
+
+    public void EnforceMarshalRules()
+    {
+        var players = UnityEngine.Object.FindObjectsByType<PlayerController>(FindObjectsSortMode.None); // ✅ Updated API
+        var marshal = GetMarshal();
+        var marshalCarriage = marshal.CurrentCarriage;
+
+        foreach (var player in players)
+        {
+            if (player == marshal || player.IsOnTop) continue;
+
+            if (player.CurrentCarriage == marshalCarriage)
+            {
+                player.Climb(); // Force climb
+
+                if (marshal.GetBullets() > 0)
+                {
+                    player.ReceiveBulletCard();
+                    marshal.GiveBulletCard(); // ✅ Marshal loses 1 bullet
+                    LogAction($"{player.PlayerName} was forced to climb by the Marshal and received a bullet card.");
+                }
+                else
+                {
+                    LogAction($"{player.PlayerName} was forced to climb by the Marshal.");
+                }
+            }
+        }
+    }
+
+    private void UpdateRoundUI()
+    {
+        if (currentPlayerText != null)
+            currentPlayerText.text = $"Round {currentRound}, Turn {currentTurnInRound + 1}";
+    }
+
+    private void UpdatePlayerUI()
+    {
+        if (currentPlayerText != null)
+            currentPlayerText.text = $"Now Playing: {currentPlayer.PlayerName}";
+    }
+
     public void LogAction(string message)
     {
         if (gameLogText != null)

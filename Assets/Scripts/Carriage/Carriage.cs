@@ -42,8 +42,30 @@ public class TopCarriage
         Vector3 pos = CalculatePlayerPosition(slotIndex);
         player.transform.position = pos;
 
-        Debug.Log($"Player added to TopCarriage at slot {slotIndex}, position {pos}");
+        // Debug.Log($"Player added to TopCarriage at slot {slotIndex}, position {pos}");
         return true;
+    }
+    public bool RemovePlayer(GameObject player)
+    {
+        int keyToRemove = -1;
+
+        foreach (var pair in players)
+        {
+            if (pair.Value == player)
+            {
+                keyToRemove = pair.Key;
+                break;
+            }
+        }
+
+        if (keyToRemove != -1)
+        {
+            players.Remove(keyToRemove);
+            // Debug.Log($"Player removed from TopCarriage slot {keyToRemove}");
+            return true;
+        }
+
+        return false;
     }
     public void AddTreasure(TreasureSO treasure, GameObject newTreasure)
     {
@@ -103,8 +125,28 @@ public class BottomCarriage
         Vector3 pos = CalculatePlayerPosition(slotIndex);
         player.transform.position = pos;
 
-        Debug.Log($"Player added to BottomCarriage at slot {slotIndex}, position {pos}");
+        // Debug.Log($"Player added to BottomCarriage at slot {slotIndex}, position {pos}");
         return true;
+    }
+    public bool RemovePlayer(GameObject player)
+    {
+        int keyToRemove = -1;
+
+        foreach (var pair in players)
+        {
+            if (pair.Value == player)
+            {
+                keyToRemove = pair.Key;
+                break;
+            }
+        }
+        if (keyToRemove != -1)
+        {
+            players.Remove(keyToRemove);
+            // Debug.Log($"Player removed from TopCarriage slot {keyToRemove}");
+            return true;
+        }
+        return false;
     }
     public void AddTreasure(TreasureSO treasure, GameObject newTreasure)
     {
