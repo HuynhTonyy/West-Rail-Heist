@@ -14,9 +14,17 @@ public class TopCarriage
     public GameObject obj;
     public int width;
     public Dictionary<int, GameObject> players = new Dictionary<int, GameObject>();
-    public List<TreasureSO> treasures = new List<TreasureSO>();
+    public List<TreasureSO> treasureSOs = new List<TreasureSO>();
+    public List<GameObject> treasures = new List<GameObject>();
 
-
+    public List<TreasureSO> GetAllTreasureSOs()
+    {
+        return treasureSOs;
+    }
+    public List<GameObject> GetAllTreasures()
+    {
+        return treasures;
+    }
     public void CalculateWidth()
     {
         if (obj != null && obj.TryGetComponent(out BoxCollider2D collider))
@@ -67,12 +75,27 @@ public class TopCarriage
 
         return false;
     }
-    public void AddTreasure(TreasureSO treasure, GameObject newTreasure)
+    public List<TreasureSO> GetAllTreaSureSOs()
     {
+        return treasureSOs;
+    }
+    public void AddTreasure(TreasureSO treasureSO, GameObject treasure)
+    {
+        treasureSOs.Add(treasureSO);
         treasures.Add(treasure);
         float x = Utility.GetRandom(obj.transform.position.x, obj.transform.position.x + width);
         Vector3 pos = new Vector3(x, obj.transform.position.y, 0);
-        newTreasure.transform.position = pos;
+        treasure.transform.position = pos;
+    }
+    public int FindTreasureIndex(TreasureSO treasureSO)
+    {
+        int index = treasureSOs.IndexOf(treasureSO);
+        return index;
+    }
+    public void RemoveTreasure(int index)
+    {
+        treasureSOs.RemoveAt(index);
+        treasures.RemoveAt(index);
     }
     private int GetNextAvailableSlot()
     {
@@ -98,7 +121,9 @@ public class BottomCarriage
     public GameObject obj;
     public int width;
     public Dictionary<int, GameObject> players = new Dictionary<int, GameObject>();
-    public List<TreasureSO> treasures = new List<TreasureSO>();
+    public List<TreasureSO> treasureSOs = new List<TreasureSO>();
+    public List<GameObject> treasures = new List<GameObject>();
+
 
     public void CalculateWidth()
     {
@@ -148,12 +173,31 @@ public class BottomCarriage
         }
         return false;
     }
-    public void AddTreasure(TreasureSO treasure, GameObject newTreasure)
+    public List<TreasureSO> GetAllTreasureSOs()
     {
+        return treasureSOs;
+    }
+    public List<GameObject> GetAllTreasures()
+    {
+        return treasures;
+    }
+    public void AddTreasure(TreasureSO treasureSO, GameObject treasure)
+    {
+        treasureSOs.Add(treasureSO);
         treasures.Add(treasure);
         float x = Utility.GetRandom(obj.transform.position.x, obj.transform.position.x + width);
         Vector3 pos = new Vector3(x, obj.transform.position.y, 0);
-        newTreasure.transform.position = pos;
+        treasure.transform.position = pos;
+    }
+    public int FindTreasureIndex(TreasureSO treasureSO)
+    {
+        int index = treasureSOs.IndexOf(treasureSO);
+        return index;
+    }
+    public void RemoveTreasure(int index)
+    {
+        treasureSOs.RemoveAt(index);
+        treasures.RemoveAt(index);
     }
     private int GetNextAvailableSlot()
     {

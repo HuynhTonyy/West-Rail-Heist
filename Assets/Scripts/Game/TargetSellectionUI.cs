@@ -93,6 +93,29 @@ public class TargetSelectionUI : MonoBehaviour
             });
         }
     }
+    public void ShowTreasureSelection(PlayerController player, List<TreasureSO> treasureSOs, System.Action<TreasureSO> onSelected)
+    {
+        gameObject.SetActive(true);
+        titleText.text = $"Choose treasure to loot";
+
+        ClearButtons();
+
+        foreach (var treasureSO in treasureSOs)
+        {
+            var btnObj = Instantiate(buttonPrefab, targetButtonContainer);
+            var btn = btnObj.GetComponent<Button>();
+            var btnText = btnObj.GetComponentInChildren<TextMeshProUGUI>();
+
+
+            btnText.text = $"{treasureSO.treasureName}: {treasureSO.value}$";
+
+            btn.onClick.AddListener(() =>
+            {
+                gameObject.SetActive(false);
+                onSelected?.Invoke(treasureSO);
+            });
+        }
+    }
     private void ClearButtons()
     {
         foreach (Transform child in targetButtonContainer)
