@@ -27,6 +27,7 @@ public class GameManager : MonoBehaviour
     public PlayerController GetMarshal() => marshal;
 
     [Header("UI")]
+    [SerializeField] private TextMeshProUGUI currentRoundText;
     [SerializeField] private TextMeshProUGUI currentPlayerText;
     [SerializeField] private TextMeshProUGUI gameLogText;
 
@@ -277,14 +278,14 @@ public class GameManager : MonoBehaviour
 
     private void UpdateRoundUI()
     {
-        if (currentPlayerText != null)
-            currentPlayerText.text = $"Round {currentRound}, Turn {currentTurnInRound + 1}";
+        if (currentRoundText != null)
+            currentRoundText.text = $"Round {currentRound} - Turn {currentTurnInRound + 1}";
     }
 
     private void UpdatePlayerUI()
     {
         if (currentPlayerText != null)
-            currentPlayerText.text = $"Now Playing: {currentPlayer.PlayerName}";
+            currentPlayerText.text = $"Current player: {currentPlayer.PlayerName}";
     }
 
     public void LogAction(string message)
