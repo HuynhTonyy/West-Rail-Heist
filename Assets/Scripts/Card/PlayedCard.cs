@@ -7,7 +7,7 @@ using System.Linq;
 public class PlayedCard : MonoBehaviour
 {
     public Image cardImage;
-    public TMP_Text cardNameText, cardDescriptionText, gameLogText;
+    public TMP_Text cardNameText, cardDescriptionText, currentTurnText, gameLogText;
     [SerializeField] private List<(PlayerController player, ActionCardData card)> cardQueue = new();
     private bool isResolving = false;
     private System.Action onFinishedAllCards;
@@ -39,6 +39,8 @@ public class PlayedCard : MonoBehaviour
 
     public void StartResolvingCards(System.Action onComplete)
     {
+
+        gameLogText.text = "Round ended - Beginning heist !";
         CardPreviewUI.Instance?.gameObject.SetActive(false);
 
         foreach (var player in GameManager.Instance.GetAllPlayers())
@@ -58,9 +60,8 @@ public class PlayedCard : MonoBehaviour
 
         if (cardQueue.Count == 0)
         {
-            gameLogText.text = "All action completed - A new round starts!";
+            gameLogText.text = "Heist completed - A new round starts!";
             gameObject.SetActive(false);
-
             onFinishedAllCards?.Invoke();  // ✅ Notify GameManager here
             return;
         }
@@ -72,7 +73,8 @@ public class PlayedCard : MonoBehaviour
         cardImage.sprite = card.cardImage;
         cardNameText.text = card.cardName;
         cardDescriptionText.text = card.description;
-        gameLogText.text = $"{player.PlayerName} is now: {card.cardName}";
+        currentTurnText.text = player.PlayerName + "'s turn";
+        gameLogText.text = $"{player.PlayerName} use {card.cardName} Card";
 
         isResolving = true;
 
@@ -145,7 +147,8 @@ public class PlayedCard : MonoBehaviour
                 {
                     GameManager.Instance.LogAction($"{player.PlayerName} tried to loot but found no treasure.");
                     FinishCurrentCard();
-                }else
+                }
+                else
                 {
                     TargetSelectionUI.Instance.ShowTreasureSelection(player, treasures, treasure =>
                     {

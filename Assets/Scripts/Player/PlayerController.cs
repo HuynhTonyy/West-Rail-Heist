@@ -231,7 +231,8 @@ public class PlayerController : MonoBehaviour
     public void Move(Carriage destination)
     {
         Utility.MovePlayerToCarriage(this, destination);
-        GameManager.Instance.LogAction($"{PlayerName} moved to Carriage {GameManager.Instance.GetCarriageIndex(destination)}");
+        int displayIndex = GameManager.Instance.GetCarriages().Count - GameManager.Instance.GetCarriageIndex(destination);
+        GameManager.Instance.LogAction($"{PlayerName} moved to Carriage {displayIndex}");
         GameManager.Instance.EnforceMarshalRules();
         PlayedCard.Instance.FinishCurrentCard();
     }
@@ -309,7 +310,7 @@ public class PlayerController : MonoBehaviour
             moveOptions["Right"] = carriages[currentIndex + 1];
 
         TargetSelectionUI.Instance.ShowDirectionSelection(
-            $"Choose direction to punch {target.PlayerName}",
+            $"{PlayerName}\nChoose direction to punch {target.PlayerName}",
             moveOptions.Keys.ToList(),
             direction =>
             {
@@ -317,7 +318,8 @@ public class PlayerController : MonoBehaviour
                 {
                     Utility.MovePlayerToCarriage(target, destination);
                     GameManager.Instance.LogAction($"{target.PlayerName} was punched to the {direction} carriage.");
-                    if (target.treasures.Count > 0) {
+                    if (target.treasures.Count > 0)
+                    {
                         int treasureIndex = Utility.GetRandom(0, target.treasures.Count);
                         TreasureSO treasureSO = target.treasures[treasureIndex];
                         GameObject treasure = Instantiate(treasureSO.treasureObj);
@@ -327,7 +329,7 @@ public class PlayerController : MonoBehaviour
                             CurrentCarriage.bottomCarriage.AddTreasure(treasureSO, treasure);
                         target.treasures.RemoveAt(treasureIndex);
                     }
-                    
+
                 }
                 GameManager.Instance.EnforceMarshalRules();
                 PlayedCard.Instance.FinishCurrentCard();
