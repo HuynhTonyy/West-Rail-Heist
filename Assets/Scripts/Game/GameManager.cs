@@ -17,12 +17,15 @@ public class GameManager : MonoBehaviour
     private List<PlayerController> allPlayers = new();
 
     [Header("Round Management")]
-    [SerializeField] private int maxRound = 5; // Total rounds in game
-    [SerializeField] private int maxTurnPerRound = 2;
-    private int startTurnForPlayerByPlayerIndex = 0;
+    private int currentCycle = 0;
+    [SerializeField]private int maxCycle = 5;
+    [SerializeField]private int maxRound = 5;
     private int currentRound = 1;
-    private int turnCountInRound = 0;
+    private int currentPlayerIndex = 0;
+    private int currentTurnInRound = 0;
     private int roundStartingPlayerIndex = 0;
+
+
     private PlayerController currentPlayer;
     private List<PlayerController> roundPlayerOrder;
     private PlayerController marshal;
@@ -32,11 +35,6 @@ public class GameManager : MonoBehaviour
     [SerializeField] private TextMeshProUGUI currentRoundText;
     [SerializeField] private TextMeshProUGUI currentPlayerText;
     [SerializeField] private TextMeshProUGUI gameLogText;
-
-    [Header("EngGame")]
-    [SerializeField] private GameObject gameSummaryPanel;
-    [SerializeField] private Transform playerResultContainer;
-    [SerializeField] private GameObject playerResultRowPrefab;
 
     [Header("Train")]
 
@@ -67,11 +65,10 @@ public class GameManager : MonoBehaviour
         SpawnPlayers();
         SpawnMarshal();
         SpawnTreasures();
-        StartNewRound();
-        gameSummaryPanel.SetActive(false);
+        StartNewCycle();
     }
 
-
+    
     // ------------------------- Initialization -------------------------
 
     private void InitializeCarriages()
@@ -101,6 +98,7 @@ public class GameManager : MonoBehaviour
         }
 
     }
+
     private void SpawnPlayers()
     {
         int half = numberOfPlayer / 2;
@@ -148,44 +146,28 @@ public class GameManager : MonoBehaviour
     }
 
     // ------------------------- Rounds -------------------------
-    private void EndRoundAndStartNext()
+    private void StartNewCycle()
     {
-        currentRound++; // ✅ This is the only place where we increase it
-
-        if (currentRound > maxRound)
-        {
-            EndGame();
-            return;
-        }
-
-        turnCountInRound = 0;
-
-        Debug.Log($"--- Starting Round {currentRound} ---");
-
+        if(currentCycle >= maxCycle){ EndGame(); }
+        currentCycle++;
+        currentRound = 1;
         foreach (var player in allPlayers)
         {
             player.PrepareDeckForNewRound();
             player.CheckTurn(false);
         }
-
         StartNewRound();
     }
-    private void EndGame()
-    {
-        gameLogText.text = $"Heist Complete!";
-        ShowGameSummary();
+    private void EndGame(){
         return;
     }
     public void StartNewRound()
     {
         if (currentRound > maxRound)
-        {
-            EndGame();
-            return;
-        }
-        gameLogText.text = $"Round started! Let's the scheming begin.";
-
+            StartNewCycle();
         Debug.Log($"--- Starting Round {currentRound} ---");
+
+        currentTurnInRound = 0;
 
         // Rotate player order based on roundStartingPlayerIndex
         List<PlayerController> orderedPlayers = new();
@@ -195,20 +177,21 @@ public class GameManager : MonoBehaviour
             orderedPlayers.Add(allPlayers[index]);
         }
         roundPlayerOrder = orderedPlayers; // Store for this round
-        Debug.Log($"This round, player order are: {string.Join(", ", roundPlayerOrder.Select(p => p.PlayerName))}");
+
+        currentPlayerIndex = 0;
 
         foreach (var player in allPlayers)
         {
-            player.PrepareDeckForNewRound();
+            // player.PrepareDeckForNewRound();
             player.CheckTurn(false);
         }
 
-        SetCurrentPlayer(roundPlayerOrder[startTurnForPlayerByPlayerIndex]);
+        SetCurrentPlayer(roundPlayerOrder[currentPlayerIndex]);
         UpdateRoundUI();
     }
     private void OnRoundEnd(System.Action onComplete)
     {
-        Debug.Log("Round ended! Start heist !");
+        Debug.Log("Round ended! Run summary, animations, score updates, etc.");
         StartCoroutine(WaitAndThen(2f, onComplete)); // Optional delay
     }
 
@@ -216,25 +199,6 @@ public class GameManager : MonoBehaviour
     {
         yield return new WaitForSeconds(seconds);
         callback?.Invoke();
-    }
-    public void ShowGameSummary()
-    {
-        // gameSummaryPanel.SetActive(true);
-
-        // // Clear previous
-        // foreach (Transform child in playerResultContainer)
-        //     Destroy(child.gameObject);
-
-        // var sortedPlayers = allPlayers.OrderByDescending(p => p.PlayerName).ToList();
-
-        // foreach (var player in sortedPlayers)
-        // {
-        //     GameObject row = Instantiate(playerResultRowPrefab, playerResultContainer);
-        //     var texts = row.GetComponentsInChildren<TextMeshProUGUI>();
-
-        //     texts[0].text = player.PlayerName;
-        //     texts[1].text = $"Score: ";
-        // }
     }
 
 
@@ -251,31 +215,25 @@ public class GameManager : MonoBehaviour
     public void MoveToNextPlayer()
     {
         currentPlayer.CheckTurn(false);
-        startTurnForPlayerByPlayerIndex++;
+        currentPlayerIndex++;
 
-        if (startTurnForPlayerByPlayerIndex >= roundPlayerOrder.Count)
+        if (currentPlayerIndex >= roundPlayerOrder.Count)
         {
-            startTurnForPlayerByPlayerIndex = 0;
-            turnCountInRound++; // completed one full cycle (1 turn per player)
-            UpdateRoundUI();
-        }
-
-        if (turnCountInRound >= maxTurnPerRound)
-        {
-            // All players finished all their turns this round
+            currentTurnInRound++;
             roundStartingPlayerIndex = (roundStartingPlayerIndex + 1) % allPlayers.Count;
 
             OnRoundEnd(() =>
             {
                 PlayedCard.Instance.StartResolvingCards(() =>
                 {
-                    EndRoundAndStartNext();
+                    currentRound++;
+                    StartNewRound();
                 });
             });
             return;
         }
 
-        SetCurrentPlayer(roundPlayerOrder[startTurnForPlayerByPlayerIndex]);
+        SetCurrentPlayer(roundPlayerOrder[currentPlayerIndex]);
     }
 
 
@@ -314,7 +272,7 @@ public class GameManager : MonoBehaviour
 
     public void EnforceMarshalRules()
     {
-        var players = UnityEngine.Object.FindObjectsByType<PlayerController>(FindObjectsSortMode.None);
+        var players = UnityEngine.Object.FindObjectsByType<PlayerController>(FindObjectsSortMode.None); // ✅ Updated API
         var marshal = GetMarshal();
         var marshalCarriage = marshal.CurrentCarriage;
 
@@ -343,7 +301,7 @@ public class GameManager : MonoBehaviour
     private void UpdateRoundUI()
     {
         if (currentRoundText != null)
-            currentRoundText.text = $"Round {currentRound} — Turn {turnCountInRound + 1} of {maxTurnPerRound}";
+            currentRoundText.text = $"Cycle {currentCycle} - Round {currentRound}";
     }
 
     private void UpdatePlayerUI()
@@ -358,3 +316,9 @@ public class GameManager : MonoBehaviour
             gameLogText.text = message;
     }
 }
+
+
+
+
+
+

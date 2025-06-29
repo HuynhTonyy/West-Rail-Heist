@@ -27,7 +27,7 @@ public class TargetSelectionUI : MonoBehaviour
     public void ShowTargetSelection(PlayerController actingPlayer, List<PlayerController> targets, Action<PlayerController> onSelected)
     {
         gameObject.SetActive(true);
-        titleText.text = $"{actingPlayer.PlayerName}\nChoose a player to perform action";
+        titleText.text = $"{actingPlayer.PlayerName}, choose a player to perform action";
         ClearButtons();
 
         foreach (var target in targets)
@@ -71,7 +71,7 @@ public class TargetSelectionUI : MonoBehaviour
     public void ShowCarriageSelection(PlayerController player, List<Carriage> carriages, System.Action<Carriage> onSelected)
     {
         gameObject.SetActive(true);
-        titleText.text = $"{player.PlayerName}\nChoose a carriage to perform action";
+        titleText.text = $"Choose carriage to move";
 
         ClearButtons();
 
@@ -96,7 +96,7 @@ public class TargetSelectionUI : MonoBehaviour
     public void ShowTreasureSelection(PlayerController player, List<TreasureSO> treasureSOs, System.Action<TreasureSO> onSelected)
     {
         gameObject.SetActive(true);
-        titleText.text = $"{player.name}\nChoose treasure to loot";
+        titleText.text = $"Choose treasure to loot";
 
         ClearButtons();
 
