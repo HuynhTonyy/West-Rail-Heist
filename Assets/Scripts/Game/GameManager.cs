@@ -118,7 +118,7 @@ public class GameManager : MonoBehaviour
             allPlayers.Add(player);
             player.CheckTurn(false); // Hide all player canvases initially
 
-            int place = 1;
+            int place = 0;
             //  place = UnityEngine.Random.Range(0, 1);
             if (i < half)
             {
@@ -257,7 +257,6 @@ public class GameManager : MonoBehaviour
         {
             startTurnForPlayerByPlayerIndex = 0;
             turnCountInRound++; // completed one full cycle (1 turn per player)
-            UpdateRoundUI();
         }
 
         if (turnCountInRound >= maxTurnPerRound)
@@ -273,6 +272,10 @@ public class GameManager : MonoBehaviour
                 });
             });
             return;
+        }
+        else
+        {
+            UpdateRoundUI();
         }
 
         SetCurrentPlayer(roundPlayerOrder[startTurnForPlayerByPlayerIndex]);
@@ -342,6 +345,7 @@ public class GameManager : MonoBehaviour
 
     private void UpdateRoundUI()
     {
+        
         if (currentRoundText != null)
             currentRoundText.text = $"Round {currentRound} — Turn {turnCountInRound + 1} of {maxTurnPerRound}";
     }
