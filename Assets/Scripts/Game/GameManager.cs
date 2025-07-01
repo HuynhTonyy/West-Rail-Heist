@@ -106,6 +106,32 @@ public class GameManager : MonoBehaviour
         }
 
     }
+    public void RestartGame()
+    {
+        ResetGame();
+        InitializeCarriages();
+        SpawnPlayers();
+        SpawnMarshal();
+        SpawnTreasures();
+        StartNewRound();
+        gameSummaryPanel.SetActive(false);
+    }
+    private void ResetGame()
+    {
+        GameObject[] playersObj = GameObject.FindGameObjectsWithTag("Player");
+        GameObject[] treasuresObj = GameObject.FindGameObjectsWithTag("treasure");
+        foreach (var player in playersObj)
+        {
+            Destroy(player);
+        }
+        foreach (var item in treasuresObj)
+        {
+            Destroy(item);
+        }
+        allPlayers.Clear();
+        currentRound = 1;
+        turnCountInRound = 0;
+    }
     private void SpawnPlayers()
     {
         int half = numberOfPlayer / 2;
@@ -179,7 +205,6 @@ public class GameManager : MonoBehaviour
     {
         gameLogText.text = $"Heist Complete!";
         ShowGameSummary();
-        return;
     }
     public void StartNewRound()
     {
@@ -224,22 +249,43 @@ public class GameManager : MonoBehaviour
     }
     public void ShowGameSummary()
     {
-        // gameSummaryPanel.SetActive(true);
+        gameSummaryPanel.SetActive(true);
 
-        // // Clear previous
-        // foreach (Transform child in playerResultContainer)
-        //     Destroy(child.gameObject);
+        // Clear previous
+        foreach (Transform child in playerResultContainer)
+            Destroy(child.gameObject);
 
-        // var sortedPlayers = allPlayers.OrderByDescending(p => p.PlayerName).ToList();
-
-        // foreach (var player in sortedPlayers)
-        // {
-        //     GameObject row = Instantiate(playerResultRowPrefab, playerResultContainer);
-        //     var texts = row.GetComponentsInChildren<TextMeshProUGUI>();
-
-        //     texts[0].text = player.PlayerName;
-        //     texts[1].text = $"Score: ";
-        // }
+        List<PlayerController> leastBullets = new();
+        int min = 6; 
+        foreach (var player in allPlayers)
+        {
+            int bullets = player.GetBullets();
+            if (bullets == min)
+            {
+                leastBullets.Add(player);
+            }
+            else if (bullets < min)
+            {
+                min = bullets;
+                leastBullets.Clear();
+                leastBullets.Add(player);
+            }
+        }
+         var adjustedValues = allPlayers.ToDictionary(
+            player => player,
+            player => player.GetTreasuresValue() + (leastBullets.Contains(player) ? 1000 : 0)
+        );
+        var sortedPlayers = adjustedValues
+            .OrderByDescending(kvp => kvp.Value)
+            .Select(kvp => kvp.Key)
+            .ToList();
+        foreach (var player in sortedPlayers)
+        {
+            GameObject row = Instantiate(playerResultRowPrefab, playerResultContainer);
+            RowResult result = row.GetComponent<RowResult>();
+            int displayValue = adjustedValues[player];
+            result.SetResult( sortedPlayers.IndexOf(player)+1,player.PlayerName,displayValue, leastBullets.Contains(player)); // pass both player and adjusted value
+        }
     }
 
 

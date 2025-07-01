@@ -48,6 +48,15 @@ public class PlayerController : MonoBehaviour
     }
 
     public int GetBullets() => playerBullets;
+    public int GetTreasuresValue()
+    {
+        int totalValue = 0;
+        foreach (var item in treasures)
+        {
+            totalValue += item.value;
+        }
+        return totalValue;
+    }
 
     public void SetPlayerId(int id)
     {
