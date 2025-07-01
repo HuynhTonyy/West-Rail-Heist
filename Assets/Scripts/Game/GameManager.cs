@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -69,6 +70,10 @@ public class GameManager : MonoBehaviour
         SpawnTreasures();
         StartNewRound();
         gameSummaryPanel.SetActive(false);
+    }
+    public void OnExitClick()
+    {
+        SceneManager.LoadScene("Menu");
     }
 
 
